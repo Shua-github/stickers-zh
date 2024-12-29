@@ -15,6 +15,8 @@ import { preloadFont } from "./utils/preload";
 const { ClipboardItem } = window;
 
 function App() {
+  const [rand, setRand] = useState(0);
+
   useEffect(() => {
     let controller;
     try {
@@ -160,7 +162,8 @@ function App() {
     link.style.display = "none";
     document.body.appendChild(link);
     link.click();
-    document.body.removeChild(link);;
+    document.body.removeChild(link);
+    setRand(rand + 1);
   };
 
   function b64toBlob(b64Data, contentType = null, sliceSize = null) {
@@ -182,16 +185,18 @@ function App() {
 
   const copy = async () => {
     const canvas = document.getElementsByTagName("canvas")[0];
-    await navigator.clipboard.write([
+    await navigator.clipboard.write([ 
       new ClipboardItem({
         "image/png": b64toBlob(canvas.toDataURL().split(",")[1]),
       }),
     ]);
     setOpenCopySnackbar(true);
+    setRand(rand + 1);
   };
 
   return (
     <div className="App">
+      <Info open={infoOpen} handleClose={handleClose} />
       <div className="container">
         <div className="vertical">
           <div className="canvas">
