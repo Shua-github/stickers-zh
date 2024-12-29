@@ -8,4 +8,4 @@
 - 原始网站由 [Rosemoe](https://github.com/Rosemoe) 提供
 - 汉化网站由 [Shua](https://github.com/Shua-github) 提供
 ## 许可
-根据 MIT 许可证分发。有关更多信息，请参阅 [`LICENSE`](https://github.com/Shua-github/arcaea-stickers-zh/LICENCE)。
+根据 MIT 许可证分发。有关更多信息，请参阅 [`LICENSE`](https://github.com/Shua-github/arcaea-stickers-zh/blob/main/LICENCE)
