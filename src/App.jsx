@@ -96,7 +96,7 @@ function App() {
         img.width * ratio,
         img.height * ratio
       );
-      ctx.font = `${fontSize}px YurukaStd, SSFangTangTi`;
+      ctx.font = `${fontSize}px YurukaStd, Inter`;
       ctx.miterLimit = 2.5;
       ctx.save();
 
