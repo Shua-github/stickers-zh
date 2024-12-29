@@ -161,7 +161,6 @@ function App() {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);;
-    setRand(rand + 1);
   };
 
   function b64toBlob(b64Data, contentType = null, sliceSize = null) {
@@ -189,7 +188,6 @@ function App() {
       }),
     ]);
     setOpenCopySnackbar(true);
-    setRand(rand + 1);
   };
 
   return (
