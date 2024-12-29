@@ -50,8 +50,8 @@ export default function Picker({ setCharacter }) {
             }}
           >
             <img
-              src={`/static/img/${c.img}`}
-              srcSet={`/static/img/${c.img}`}
+              src={`/arcaea-stickers-zh/static/img/${c.img}`}
+              srcSet={`/arcaea-stickers-zh/static/img/${c.img}`}
               alt={c.name}
               loading="lazy"
             />
