@@ -19,7 +19,6 @@ const { ClipboardItem } = window;
 function App() {
   const [config, setConfig] = useState(null);
 
-  // using this to trigger the useEffect because lazy to think of a better way
   const [rand, setRand] = useState(0);
   useEffect(() => {
     try {
@@ -34,7 +33,6 @@ function App() {
   }, [rand]);
 
   useEffect(() => {
-    /** @type {AbortController | undefined} */
     let controller;
     try {
       controller = new AbortController();
@@ -119,7 +117,6 @@ function App() {
       ctx.miterLimit = 2.5;
       ctx.save();
 
-      
       ctx.translate(position.x, position.y);
       ctx.rotate(rotate / 10);
       ctx.textAlign = "center";
@@ -220,7 +217,7 @@ function App() {
     <div className="App">
       <Info open={infoOpen} handleClose={handleClose} config={config} />
       <div className="counter">
-        Total Stickers you made: {config?.total || "Not available"}
+        您创建的贴纸总数：{config?.total || "暂无数据"}
       </div>
       <div className="container">
         <div className="vertical">
@@ -256,7 +253,7 @@ function App() {
           />
           <div className="settings">
             <div>
-              <label>Rotate: </label>
+              <label>旋转角度: </label>
               <Slider
                 value={rotate}
                 onChange={(e, v) => setRotate(v)}
@@ -269,7 +266,7 @@ function App() {
             </div>
             <div>
               <label>
-                <nobr>Font size: </nobr>
+                <nobr>字体大小: </nobr>
               </label>
               <Slider
                 value={fontSize}
@@ -283,7 +280,7 @@ function App() {
             </div>
             <div>
               <label>
-                <nobr>Spacing: </nobr>
+                <nobr>间距大小: </nobr>
               </label>
               <Slider
                 value={spaceSize}
@@ -296,7 +293,7 @@ function App() {
               />
             </div>
             <div>
-              <label>Curve (Beta): </label>
+              <label>文字弧形 (Beta): </label>
               <Switch
                 checked={curve}
                 onChange={(e) => setCurve(e.target.checked)}
@@ -306,7 +303,7 @@ function App() {
           </div>
           <div className="text">
             <TextField
-              label="Text"
+              label="文字内容"
               size="small"
               color="secondary"
               value={text}
@@ -320,16 +317,16 @@ function App() {
           </div>
           <div className="buttons">
             <Button color="secondary" onClick={copy}>
-              copy
+              复制
             </Button>
             <Button color="secondary" onClick={download}>
-              download
+              下载
             </Button>
           </div>
         </div>
         <div className="footer">
           <Button color="secondary" onClick={handleClickOpen}>
-            About
+            关于
           </Button>
         </div>
       </div>
@@ -337,7 +334,7 @@ function App() {
         anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
         open={openCopySnackbar}
         onClose={handleSnackClose}
-        message="Copied image to clipboard."
+        message="图片已复制到剪贴板"
         key="copy"
         autoHideDuration={1500}
       />

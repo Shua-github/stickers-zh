@@ -23,8 +23,7 @@ export default function Picker({ setCharacter }) {
   const open = Boolean(anchorEl);
   const id = open ? "picker" : undefined;
 
-  // Memoize the filtered image list items to avoid recomputing them
-  // at every render
+  // 缓存过滤后的图片列表项，避免在每次渲染时重新计算
   const memoizedImageListItems = useMemo(() => {
     const s = search.toLowerCase();
     return characters.map((c, index) => {
@@ -71,7 +70,7 @@ export default function Picker({ setCharacter }) {
         color="secondary"
         onClick={handleClick}
       >
-        Pick character
+        选择角色
       </Button>
       <Popover
         id={id}
@@ -86,7 +85,7 @@ export default function Picker({ setCharacter }) {
       >
         <div className="picker-search">
           <TextField
-            label="Search character"
+            label="搜索角色"
             size="small"
             color="secondary"
             value={search}
