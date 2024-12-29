@@ -89,8 +89,6 @@ function App() {
     setLoaded(true);
   };
 
-  let angle = (Math.PI * text.length) / 7;
-
   const draw = (ctx) => {
     ctx.canvas.width = 296;
     ctx.canvas.height = 256;
