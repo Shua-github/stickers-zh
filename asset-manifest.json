@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/arcaea-stickers-zh/static/static/css/main.92e4d31f.css",
-    "main.js": "/arcaea-stickers-zh/static/static/js/main.32920daf.js",
-    "static/media/YurukaStd.woff2": "/arcaea-stickers-zh/static/static/media/YurukaStd.e4589185c34a94a462b4.woff2",
-    "static/media/ShangShouFangTangTi.woff2": "/arcaea-stickers-zh/static/static/media/ShangShouFangTangTi.86f6651bda19f72a48d3.woff2",
-    "index.html": "/arcaea-stickers-zh/static/index.html",
-    "main.92e4d31f.css.map": "/arcaea-stickers-zh/static/static/css/main.92e4d31f.css.map",
-    "main.32920daf.js.map": "/arcaea-stickers-zh/static/static/js/main.32920daf.js.map"
+    "main.css": "/arcaea-stickers-zh/static/css/main.ced722f2.css",
+    "main.js": "/arcaea-stickers-zh/static/js/main.2f0ab13a.js",
+    "static/media/YurukaStd.woff2": "/arcaea-stickers-zh/static/media/YurukaStd.e4589185c34a94a462b4.woff2",
+    "static/media/ShangShouFangTangTi.woff2": "/arcaea-stickers-zh/static/media/ShangShouFangTangTi.86f6651bda19f72a48d3.woff2",
+    "index.html": "/arcaea-stickers-zh/index.html",
+    "main.ced722f2.css.map": "/arcaea-stickers-zh/static/css/main.ced722f2.css.map",
+    "main.2f0ab13a.js.map": "/arcaea-stickers-zh/static/js/main.2f0ab13a.js.map"
   },
   "entrypoints": [
-    "static/css/main.92e4d31f.css",
-    "static/js/main.32920daf.js"
+    "static/css/main.ced722f2.css",
+    "static/js/main.2f0ab13a.js"
   ]
 }
