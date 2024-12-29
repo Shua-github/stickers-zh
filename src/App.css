@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "HarmonyOS_Sans";
+  src: url("./fonts/HarmonyOS_Sans.woff2") format("woff2");
+}
+
 .App {
   text-align: center;
 }
@@ -26,7 +31,6 @@
 .horizontal {
   width: 296px;
   /* margin-left: -30px; */
-
 }
 
 .slider-horizontal {
@@ -35,7 +39,7 @@
 
 .settings {
   color: black;
-  font-family: "YurukaStd";
+  font-family: "HarmonyOS_Sans";
   margin: 1.5rem 0 1.5rem 0;
 }
 
@@ -84,7 +88,7 @@
 
 .footer {
   margin-top: 2rem;
-  font-family: "YurukaStd";
+  font-family: "HarmonyOS_Sans";
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,5 +122,5 @@
   text-align: left;
   color: black;
   font-weight: bold;
-  font-family: YurukaStd;
+  font-family: "HarmonyOS_Sans";
 }

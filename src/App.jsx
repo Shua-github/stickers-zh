@@ -1,4 +1,4 @@
-import Inter from "./fonts/Inter.woff2";
+import SSFangTangTi from "./fonts/ShangShouFangTangTi.woff2";
 import "./App.css";
 import Canvas from "./components/Canvas";
 import { useState, useEffect } from "react";
@@ -7,7 +7,7 @@ import Slider from "@mui/material/Slider";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import Switch from "@mui/material/Switch";
-import Snackbar from '@mui/material/Snackbar';
+import Snackbar from "@mui/material/Snackbar";
 import Picker from "./components/Picker";
 import Info from "./components/Info";
 import { preloadFont } from "./utils/preload";
@@ -21,13 +21,13 @@ function App() {
     let controller;
     try {
       controller = new AbortController();
-      preloadFont("Inter", Inter, controller.signal);
+      preloadFont("SSFangTangTi", SSFangTangTi, controller.signal);
     } catch (error) {
       console.error(error);
     } finally {
       return () => {
         controller?.abort();
-      }
+      };
     }
   }, []);
 
@@ -96,7 +96,7 @@ function App() {
         img.width * ratio,
         img.height * ratio
       );
-      ctx.font = `${fontSize}px YurukaStd, Inter`;
+      ctx.font = `${fontSize}px YurukaStd, SSFangTangTi`;
       ctx.miterLimit = 2.5;
       ctx.save();
 
@@ -185,7 +185,7 @@ function App() {
 
   const copy = async () => {
     const canvas = document.getElementsByTagName("canvas")[0];
-    await navigator.clipboard.write([ 
+    await navigator.clipboard.write([
       new ClipboardItem({
         "image/png": b64toBlob(canvas.toDataURL().split(",")[1]),
       }),
@@ -231,7 +231,9 @@ function App() {
           />
           <div className="settings">
             <div>
-              <label><nobr>旋转角度: </nobr></label>
+              <label>
+                <nobr>旋转角度: </nobr>
+              </label>
               <Slider
                 value={rotate}
                 onChange={(e, v) => setRotate(v)}
@@ -286,7 +288,7 @@ function App() {
               color="secondary"
               value={text}
               multiline={true}
-              fullWidth
+              fullWidth={true}
               onChange={(e) => setText(e.target.value)}
             />
           </div>
