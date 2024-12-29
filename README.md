@@ -1,7 +1,7 @@
 # Arcaea 表情制作器
 制作你自己的 Arcaea 表情！
 ## 功能
-- [x] 下载/复制贴纸
+- [x] 下载/复制表情
 ## 贡献者
 - 原始表情来自 [Xestarrrr](https://x.com/Xestarrrr)
 - Project Sekai [制作器](https://github.com/TheOriginalAyaka/sekai-stickers) by [Akaya](https://github.com/TheOriginalAkaya)
