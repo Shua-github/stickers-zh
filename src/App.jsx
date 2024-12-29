@@ -1,4 +1,4 @@
-import SSFangTangTi from "./fonts/ShangShouFangTangTi.woff2";
+import Inter from "./fonts/Inter.woff2";
 import "./App.css";
 import Canvas from "./components/Canvas";
 import { useState, useEffect } from "react";
@@ -21,7 +21,7 @@ function App() {
     let controller;
     try {
       controller = new AbortController();
-      preloadFont("SSFangTangTi", SSFangTangTi, controller.signal);
+      preloadFont("Inter", Inter, controller.signal);
     } catch (error) {
       console.error(error);
     } finally {
