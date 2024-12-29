@@ -83,7 +83,7 @@ function App() {
     setLoaded(false);
   }, [character]);
 
-  img.src = "/arcaea-stickers-zh/img/" + characters[character].img;
+  img.src = "/img/" + characters[character].img;
 
   img.onload = () => {
     setLoaded(true);
