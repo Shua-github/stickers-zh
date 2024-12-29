@@ -58,7 +58,7 @@ export default function Info({ open, handleClose }) {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Rosemoe"
-                  secondary="为 Arcaea 版本的贴纸制作工具提供支持"
+                  secondary="为 Arcaea 版本的表情制作工具提供支持"
                 />
               </ListItem>
               <ListItem
@@ -76,7 +76,7 @@ export default function Info({ open, handleClose }) {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Xestarrrr"
-                  secondary="为 Arcaea 贴纸图像提供支持"
+                  secondary="为 Arcaea 表情图像提供支持"
                 />
               </ListItem>
               <ListItem
@@ -94,7 +94,7 @@ export default function Info({ open, handleClose }) {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Ayaka"
-                  secondary="为原始贴纸制作工具提供支持"
+                  secondary="为原始表情制作工具提供支持"
                 />
               </ListItem>
             </List>
