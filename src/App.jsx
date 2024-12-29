@@ -10,28 +10,11 @@ import Switch from "@mui/material/Switch";
 import Snackbar from '@mui/material/Snackbar';
 import Picker from "./components/Picker";
 import Info from "./components/Info";
-import getConfiguration from "./utils/config";
-import log from "./utils/log";
 import { preloadFont } from "./utils/preload";
 
 const { ClipboardItem } = window;
 
 function App() {
-  const [config, setConfig] = useState(null);
-
-  const [rand, setRand] = useState(0);
-  useEffect(() => {
-    try {
-      const data = async () => {
-        const res = await getConfiguration();
-        setConfig(res);
-      };
-      data();
-    } catch (error) {
-      console.log(error);
-    }
-  }, [rand]);
-
   useEffect(() => {
     let controller;
     try {
@@ -177,8 +160,7 @@ function App() {
     link.style.display = "none";
     document.body.appendChild(link);
     link.click();
-    document.body.removeChild(link);
-    await log(characters[character].id, characters[character].name, "download");
+    document.body.removeChild(link);;
     setRand(rand + 1);
   };
 
@@ -207,16 +189,11 @@ function App() {
       }),
     ]);
     setOpenCopySnackbar(true);
-    await log(characters[character].id, characters[character].name, "copy");
     setRand(rand + 1);
   };
 
   return (
     <div className="App">
-      <Info open={infoOpen} handleClose={handleClose} config={config} />
-      <div className="counter">
-        您创建的贴纸总数：{config?.total || "暂无数据"}
-      </div>
       <div className="container">
         <div className="vertical">
           <div className="canvas">
