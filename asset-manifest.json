@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/arcaea-stickers-zh/static/css/main.313b4839.css",
-    "main.js": "/arcaea-stickers-zh/static/js/main.2596be77.js",
+    "main.js": "/arcaea-stickers-zh/static/js/main.b43e7be8.js",
     "static/media/HarmonyOS_Sans.woff2": "/arcaea-stickers-zh/static/media/HarmonyOS_Sans.fd7a0d0b294579b86f40.woff2",
     "static/media/ShangShouFangTangTi.woff2": "/arcaea-stickers-zh/static/media/ShangShouFangTangTi.86f6651bda19f72a48d3.woff2",
     "index.html": "/arcaea-stickers-zh/index.html",
     "main.313b4839.css.map": "/arcaea-stickers-zh/static/css/main.313b4839.css.map",
-    "main.2596be77.js.map": "/arcaea-stickers-zh/static/js/main.2596be77.js.map"
+    "main.b43e7be8.js.map": "/arcaea-stickers-zh/static/js/main.b43e7be8.js.map"
   },
   "entrypoints": [
     "static/css/main.313b4839.css",
-    "static/js/main.2596be77.js"
+    "static/js/main.b43e7be8.js"
   ]
 }
