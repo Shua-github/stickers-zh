@@ -51,9 +51,10 @@ function App() {
     y: characters[character].defaultText.y,
   });
   const [fontSize, setFontSize] = useState(characters[character].defaultText.s);
-  const [spaceSize, setSpaceSize] = useState(50);
+  const [spaceSize] = useState(50);
   const [rotate, setRotate] = useState(characters[character].defaultText.r);
   const [curve, setCurve] = useState(false);
+  const [curveAmount, setCurveAmount] = useState(0.15); // 新增曲度控制变量
   const [loaded, setLoaded] = useState(false);
   const img = new Image();
 
@@ -108,13 +109,13 @@ function App() {
       if (curve) {
         ctx.save();
         for (let line of lines) {
-          let lineAngle = (Math.PI * line.length) / 7;
+          let lineAngle = (Math.PI * line.length) * curveAmount; // 使用曲度变量
           for (let pass = 0; pass < 2; pass++) {
             ctx.save();
             for (let i = 0; i < line.length; i++) {
-              ctx.rotate(lineAngle / line.length / 2.2);
+              ctx.rotate(lineAngle / line.length / 2);
               ctx.save();
-              ctx.translate(0, -1 * fontSize * 3.5);
+              ctx.translate(0, -1 * fontSize * 4);
               if (pass === 0) {
                 ctx.strokeStyle = "white";
                 ctx.lineWidth = 15;
@@ -259,24 +260,24 @@ function App() {
               />
             </div>
             <div>
-              <label>
-                <nobr>间距大小: </nobr>
-              </label>
-              <Slider
-                value={spaceSize}
-                onChange={(e, v) => setSpaceSize(v)}
-                min={0}
-                max={100}
-                step={1}
-                track={false}
-                color="secondary"
-              />
-            </div>
-            <div>
               <label>文字弧形 (Beta): </label>
               <Switch
                 checked={curve}
                 onChange={(e) => setCurve(e.target.checked)}
+                color="secondary"
+              />
+            </div>
+            <div>
+              <label>
+                <nobr>弧形曲度: </nobr>
+              </label>
+              <Slider
+                value={curveAmount}
+                onChange={(e, v) => setCurveAmount(v)}
+                min={0.05}
+                max={0.5}
+                step={0.01}
+                track={false}
                 color="secondary"
               />
             </div>
