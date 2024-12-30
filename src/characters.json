@@ -289,8 +289,8 @@
         "name": "Insight",
         "character": "insight",
         "img": "insight.png",
-        "fillColor": "#C9CBEA",
-        "strokeColor": "#a8a9c3",
+        "fillColor": "#9E9BE0",
+        "strokeColor": "#594D97",
         "defaultText": {
             "text": "something",
             "x": 148,
