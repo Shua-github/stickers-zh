@@ -4,7 +4,7 @@
 ## 功能
 - [x] 下载/复制表情
 
-## 谢谢它和他们
+## 谢谢他们和它们
 - [Arcaea Stickers](https://github.com/Rosemoe/arcaea-stickers)
 - [Project Sekai Stickers](https://github.com/TheOriginalAyaka/sekai-stickers)
 - [Xestarrrr](https://x.com/Xestarrrr)

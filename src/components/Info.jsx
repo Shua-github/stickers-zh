@@ -24,7 +24,7 @@ export default function Info({ open, handleClose }) {
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
             <Typography variant="h6" component="h3">
-              这个工具由以下人员提供支持：
+              谢谢他们和它们：
             </Typography>
             <List>
             <ListItem
@@ -41,60 +41,43 @@ export default function Info({ open, handleClose }) {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Shua"
-                  secondary="汉化此工具并修改了一些地方"
+                  secondary="汉化并修改了一些地方"
                 />
               </ListItem>
               <ListItem
                 button
                 onClick={() =>
-                  (window.location.href = "https://github.com/Rosemoe")
+                  (window.location.href = 
+                    "https://github.com/Rosemoe/arcaea-stickers")
                 }
               >
                 <ListItemAvatar>
                   <Avatar
-                    alt="Rosemoe"
-                    src="https://avatars.githubusercontent.com/Rosemoe"
+                    alt="Github"
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
                   />
                 </ListItemAvatar>
                 <ListItemText
-                  primary="Rosemoe"
-                  secondary="为 Arcaea 版本的表情制作工具提供支持"
-                />
-              </ListItem>
-              <ListItem
-                button
-                onClick={() =>
-                  (window.location.href =
-                    "https://x.com/Xestarrrr")
-                }
-              >
-                <ListItemAvatar>
-                  <Avatar
-                    alt="贡献者"
-                    src="https://pbs.twimg.com/profile_images/1829853648521723905/rnRP3FCZ_400x400.jpg"
-                  />
-                </ListItemAvatar>
-                <ListItemText
-                  primary="Xestarrrr"
-                  secondary="为 Arcaea 表情图像提供支持"
+                  primary="Arcaea Stickers"
+                  secondary="提供了Arcaea表情制作工具和Arcaea表情图像"
                 />
               </ListItem>
               <ListItem
                 button
                 onClick={() =>
                   (window.location.href =
-                    "https://github.com/TheOriginalAyaka")
+                    "https://github.com/TheOriginalAyaka/sekai-stickers")
                 }
               >
                 <ListItemAvatar>
                   <Avatar
-                    alt="Ayaka"
-                    src="https://avatars.githubusercontent.com/TheOriginalAyaka"
+                    alt="Github"
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
                   />
                 </ListItemAvatar>
                 <ListItemText
-                  primary="Ayaka"
-                  secondary="为原始表情制作工具提供支持"
+                  primary="Project Sekai Stickers"
+                  secondary="提供了pjsk制作工具和pjsk表情图像"
                 />
               </ListItem>
             </List>
