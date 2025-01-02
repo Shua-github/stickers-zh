@@ -6,7 +6,9 @@ import {
   TextField,
 } from "@mui/material";
 import { useState, useMemo } from "react";
-import characters from "../characters.json";
+import arc_characters from "../arc_characters.json";
+import pjsk_characters from "../pjsk_characters.json";
+const characters = [].concat(arc_characters, pjsk_characters);
 
 export default function Picker({ setCharacter }) {
   const [anchorEl, setAnchorEl] = useState(null);

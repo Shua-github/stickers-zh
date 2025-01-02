@@ -2,7 +2,8 @@ import SSFangTangTi from "./fonts/ShangShouFangTangTi.woff2";
 import "./App.css";
 import Canvas from "./components/Canvas";
 import { useState, useEffect } from "react";
-import characters from "./characters.json";
+import arc_characters from "./arc_characters.json";
+import pjsk_characters from "./pjsk_characters.json";
 import Slider from "@mui/material/Slider";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
@@ -13,10 +14,27 @@ import Info from "./components/Info";
 import { preloadFont } from "./utils/preload";
 
 const { ClipboardItem } = window;
+const characters = [].concat(arc_characters, pjsk_characters);
 
 function App() {
   const [rand, setRand] = useState(0);
+  const [infoOpen, setInfoOpen] = useState(false);
+  const [openCopySnackbar, setOpenCopySnackbar] = useState(false);
+  const [character, setCharacter] = useState(5);
+  const [text, setText] = useState(characters[character].defaultText.text);
+  const [position, setPosition] = useState({
+    x: characters[character].defaultText.x,
+    y: characters[character].defaultText.y,
+  });
+  const [fontSize, setFontSize] = useState(characters[character].defaultText.s);
+  const [spaceSize] = useState(50);
+  const [rotate, setRotate] = useState(characters[character].defaultText.r);
+  const [curve, setCurve] = useState(false);
+  const [curveAmount, setCurveAmount] = useState(0.15);
+  const [loaded, setLoaded] = useState(false);
+  const img = new Image();
 
+  // Preload font
   useEffect(() => {
     let controller;
     try {
@@ -31,33 +49,7 @@ function App() {
     }
   }, []);
 
-  const [infoOpen, setInfoOpen] = useState(false);
-  const handleClickOpen = () => {
-    setInfoOpen(true);
-  };
-  const handleClose = () => {
-    setInfoOpen(false);
-  };
-
-  const [openCopySnackbar, setOpenCopySnackbar] = useState(false);
-  const handleSnackClose = (e, r) => {
-    setOpenCopySnackbar(false);
-  };
-
-  const [character, setCharacter] = useState(5);
-  const [text, setText] = useState(characters[character].defaultText.text);
-  const [position, setPosition] = useState({
-    x: characters[character].defaultText.x,
-    y: characters[character].defaultText.y,
-  });
-  const [fontSize, setFontSize] = useState(characters[character].defaultText.s);
-  const [spaceSize] = useState(50);
-  const [rotate, setRotate] = useState(characters[character].defaultText.r);
-  const [curve, setCurve] = useState(false);
-  const [curveAmount, setCurveAmount] = useState(0.15); // 新增曲度控制变量
-  const [loaded, setLoaded] = useState(false);
-  const img = new Image();
-
+  // Update text and other states when character changes
   useEffect(() => {
     setText(characters[character].defaultText.text);
     setPosition({
@@ -70,7 +62,6 @@ function App() {
   }, [character]);
 
   img.src = `${process.env.PUBLIC_URL}/img/` + characters[character].img;
-
   img.onload = () => {
     setLoaded(true);
   };
@@ -80,11 +71,11 @@ function App() {
     ctx.canvas.height = 256;
 
     if (loaded && document.fonts.check("12px YurukaStd")) {
-      var hRatio = ctx.canvas.width / img.width;
-      var vRatio = ctx.canvas.height / img.height;
-      var ratio = Math.min(hRatio, vRatio);
-      var centerShift_x = (ctx.canvas.width - img.width * ratio) / 2;
-      var centerShift_y = (ctx.canvas.height - img.height * ratio) / 2;
+      const hRatio = ctx.canvas.width / img.width;
+      const vRatio = ctx.canvas.height / img.height;
+      const ratio = Math.min(hRatio, vRatio);
+      const centerShift_x = (ctx.canvas.width - img.width * ratio) / 2;
+      const centerShift_y = (ctx.canvas.height - img.height * ratio) / 2;
       ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
       ctx.drawImage(
         img,
@@ -105,17 +96,18 @@ function App() {
       ctx.rotate(rotate / 10);
       ctx.textAlign = "center";
       ctx.fillStyle = characters[character].fillColor;
-      var lines = text.split("\n");
+      const lines = text.split("\n");
+
       if (curve) {
         ctx.save();
         for (let line of lines) {
-          let lineAngle = (Math.PI * line.length) * curveAmount; // 使用曲度变量
+          const lineAngle = Math.PI * line.length * curveAmount;
           for (let pass = 0; pass < 2; pass++) {
             ctx.save();
             for (let i = 0; i < line.length; i++) {
               ctx.rotate(lineAngle / line.length / 2);
               ctx.save();
-              ctx.translate(0, -1 * fontSize * 4);
+              ctx.translate(0, -fontSize * 4);
               if (pass === 0) {
                 ctx.strokeStyle = "white";
                 ctx.lineWidth = 15;
@@ -135,7 +127,8 @@ function App() {
         ctx.restore();
       } else {
         for (let pass = 0; pass < 2; pass++) {
-          for (var i = 0, k = 0; i < lines.length; i++) {
+          let k = 0;
+          for (let i = 0; i < lines.length; i++) {
             if (pass === 0) {
               ctx.strokeStyle = "white";
               ctx.lineWidth = 15;
@@ -149,7 +142,6 @@ function App() {
             k += ((spaceSize - 50) / 50 + 1) * fontSize;
           }
         }
-
         ctx.restore();
       }
     }
@@ -167,19 +159,13 @@ function App() {
     setRand(rand + 1);
   };
 
-  function b64toBlob(b64Data, contentType = null, sliceSize = null) {
-    contentType = contentType || "image/png";
-    sliceSize = sliceSize || 512;
-    let byteCharacters = atob(b64Data);
-    let byteArrays = [];
+  function b64toBlob(b64Data, contentType = "image/png", sliceSize = 512) {
+    const byteCharacters = atob(b64Data);
+    const byteArrays = [];
     for (let offset = 0; offset < byteCharacters.length; offset += sliceSize) {
-      let slice = byteCharacters.slice(offset, offset + sliceSize);
-      let byteNumbers = new Array(slice.length);
-      for (let i = 0; i < slice.length; i++) {
-        byteNumbers[i] = slice.charCodeAt(i);
-      }
-      var byteArray = new Uint8Array(byteNumbers);
-      byteArrays.push(byteArray);
+      const slice = byteCharacters.slice(offset, offset + sliceSize);
+      const byteNumbers = Array.from(slice, (char) => char.charCodeAt(0));
+      byteArrays.push(new Uint8Array(byteNumbers));
     }
     return new Blob(byteArrays, { type: contentType });
   }
@@ -197,7 +183,7 @@ function App() {
 
   return (
     <div className="App">
-      <Info open={infoOpen} handleClose={handleClose} />
+      <Info open={infoOpen} handleClose={() => setInfoOpen(false)} />
       <div className="container">
         <div className="vertical">
           <div className="canvas">
@@ -306,7 +292,7 @@ function App() {
           </div>
         </div>
         <div className="footer">
-          <Button color="secondary" onClick={handleClickOpen}>
+          <Button color="secondary" onClick={() => setInfoOpen(true)}>
             关于
           </Button>
         </div>
@@ -314,7 +300,7 @@ function App() {
       <Snackbar
         anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
         open={openCopySnackbar}
-        onClose={handleSnackClose}
+        onClose={() => setOpenCopySnackbar(false)}
         message="图片已复制到剪贴板"
         key="copy"
         autoHideDuration={1500}

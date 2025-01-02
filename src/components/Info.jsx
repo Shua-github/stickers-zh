@@ -106,7 +106,7 @@ export default function Info({ open, handleClose }) {
                 button
                 onClick={() =>
                   (window.location.href =
-                    "https://github.com/Shua-github/arcaea-stickers-zh")
+                    "https://github.com/Shua-github/stickers-zh")
                 }
               >
                 <ListItemAvatar>

@@ -3,7 +3,7 @@
         "id": "1",
         "name": "Ayu",
         "character": "ayu",
-        "img": "ayu.png",
+        "img": "arc/ayu.png",
         "fillColor": "#3BEADF",
         "strokeColor": "#30bbb2",
         "defaultText": {
@@ -18,7 +18,7 @@
         "id": "2",
         "name": "Eto",
         "character": "eto",
-        "img": "eto.png",
+        "img": "arc/eto.png",
         "fillColor": "#79cfe8",
         "strokeColor": "#0b8eb7",
         "defaultText": {
@@ -33,7 +33,7 @@
         "id": "3",
         "name": "Hikari 01",
         "character": "hikari",
-        "img": "hikari.png",
+        "img": "arc/hikari.png",
         "fillColor": "#ffe7b5",
         "strokeColor": "#ef7d04",
         "defaultText": {
@@ -48,7 +48,7 @@
         "id": "4",
         "name": "Ilith",
         "character": "ilith",
-        "img": "ilith.png",
+        "img": "arc/ilith.png",
         "fillColor": "#f58194",
         "strokeColor": "#c61632",
         "defaultText": {
@@ -63,7 +63,7 @@
         "id": "5",
         "name": "Kou",
         "character": "kou",
-        "img": "kou.png",
+        "img": "arc/kou.png",
         "fillColor": "#ffd5d5",
         "strokeColor": "#f04f87",
         "defaultText": {
@@ -78,7 +78,7 @@
         "id": "6",
         "name": "Lagrange",
         "character": "lagrange",
-        "img": "lagrange.png",
+        "img": "arc/lagrange.png",
         "fillColor": "#bbd7fa",
         "strokeColor": "#4c8cdd",
         "defaultText": {
@@ -93,7 +93,7 @@
         "id": "7",
         "name": "Luna",
         "character": "luna",
-        "img": "luna.png",
+        "img": "arc/luna.png",
         "fillColor": "#c09edd",
         "strokeColor": "#7743a3",
         "defaultText": {
@@ -108,7 +108,7 @@
         "id": "8",
         "name": "Maya",
         "character": "maya",
-        "img": "maya.png",
+        "img": "arc/maya.png",
         "fillColor": "#f1dece",
         "strokeColor": "#f4cfb7",
         "defaultText": {
@@ -123,7 +123,7 @@
         "id": "9",
         "name": "Nami",
         "character": "nami",
-        "img": "nami.png",
+        "img": "arc/nami.png",
         "fillColor": "#f9c2cb",
         "strokeColor": "#f62f51",
         "defaultText": {
@@ -138,7 +138,7 @@
         "id": "10",
         "name": "Shirahime",
         "character": "shirahime",
-        "img": "shirahime.png",
+        "img": "arc/shirahime.png",
         "fillColor": "#c3d5ff",
         "strokeColor": "#657ae7",
         "defaultText": {
@@ -153,7 +153,7 @@
         "id": "11",
         "name": "Tairitsu 01",
         "character": "tairitsu",
-        "img": "tairitsu.png",
+        "img": "arc/tairitsu.png",
         "fillColor": "#80e8d5",
         "strokeColor": "#329f8c",
         "defaultText": {
@@ -168,7 +168,7 @@
         "id": "12",
         "name": "Vita",
         "character": "vita",
-        "img": "vita.png",
+        "img": "arc/vita.png",
         "fillColor": "#f58194",
         "strokeColor": "#c81c38",
         "defaultText": {
@@ -183,7 +183,7 @@
         "id": "13",
         "name": "Hikari 02",
         "character": "hikari",
-        "img": "hikari2.png",
+        "img": "arc/hikari2.png",
         "fillColor": "#ffe7b5",
         "strokeColor": "#ef7d04",
         "defaultText": {
@@ -198,7 +198,7 @@
         "id": "14",
         "name": "Tairitsu 02",
         "character": "tairitsu",
-        "img": "tairitsu2.png",
+        "img": "arc/tairitsu2.png",
         "fillColor": "#80e8d5",
         "strokeColor": "#329f8c",
         "defaultText": {
@@ -213,7 +213,7 @@
         "id": "15",
         "name": "Kanae",
         "character": "kanae",
-        "img": "kanae.png",
+        "img": "arc/kanae.png",
         "fillColor": "#fbd0ad",
         "strokeColor": "#FFB87F",
         "defaultText": {
@@ -228,7 +228,7 @@
         "id": "16",
         "name": "Saya",
         "character": "saya",
-        "img": "saya.png",
+        "img": "arc/saya.png",
         "fillColor": "#80e8d5",
         "strokeColor": "#329f8c",
         "defaultText": {
@@ -243,7 +243,7 @@
         "id": "17",
         "name": "Tairitsu 03",
         "character": "tairitsu",
-        "img": "tairitsu3.png",
+        "img": "arc/tairitsu3.png",
         "fillColor": "#80e8d5",
         "strokeColor": "#329f8c",
         "defaultText": {
@@ -258,7 +258,7 @@
         "id": "18",
         "name": "Shirabe",
         "character": "shirabe",
-        "img": "shirabe.png",
+        "img": "arc/shirabe.png",
         "fillColor": "#E5616D",
         "strokeColor": "#974149",
         "defaultText": {
@@ -273,7 +273,7 @@
         "id": "19",
         "name": "Lethe",
         "character": "lethe",
-        "img": "lethe.png",
+        "img": "arc/lethe.png",
         "fillColor": "#F6D3C2",
         "strokeColor": "#E3BAA7",
         "defaultText": {
@@ -288,7 +288,7 @@
         "id": "20",
         "name": "Insight",
         "character": "insight",
-        "img": "insight.png",
+        "img": "arc/insight.png",
         "fillColor": "#9E9BE0",
         "strokeColor": "#594D97",
         "defaultText": {
@@ -303,7 +303,7 @@
         "id": "21",
         "name": "Aichan",
         "character": "aichan",
-        "img": "aichan.png",
+        "img": "arc/aichan.png",
         "fillColor": "#CDB4E8",
         "strokeColor": "#a28fb6",
         "defaultText": {
