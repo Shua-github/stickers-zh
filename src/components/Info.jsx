@@ -77,7 +77,7 @@ export default function Info({ open, handleClose }) {
                 </ListItemAvatar>
                 <ListItemText
                   primary="Project Sekai Stickers"
-                  secondary="提供了pjsk制作工具和pjsk表情图像"
+                  secondary="提供了pjsk表情制作工具和pjsk表情图像"
                 />
               </ListItem>
             </List>
