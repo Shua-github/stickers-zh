@@ -1,6 +1,6 @@
 {
-    "name": "Arcaea Stickers",
-    "short_name": "Arcaea Stickers",
+    "name": "表情制作器",
+    "short_name": "表情制作器",
     "icons": [
       {
         "src": "/stickers-zh/android-chrome-192x192.png",
