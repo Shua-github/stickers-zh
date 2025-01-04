@@ -2,8 +2,6 @@ import { useState, useEffect } from "react";
 import SSFangTangTi from "./fonts/ShangShouFangTangTi.woff2";
 import "./App.css";
 import Canvas from "./components/Canvas";
-import arc_characters from "./arc_characters.json";
-import pjsk_characters from "./pjsk_characters.json";
 import Slider from "@mui/material/Slider";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
@@ -13,9 +11,9 @@ import Picker from "./components/Picker";
 import Info from "./components/Info";
 import { preloadFont } from "./utils/preload";
 import { SketchPicker } from 'react-color'; // 引入颜色选择器组件
+import characters from './utils/loadcharacters';
 
 const { ClipboardItem } = window;
-const characters = [].concat(arc_characters, pjsk_characters);
 
 function App() {
   const [rand, setRand] = useState(0);

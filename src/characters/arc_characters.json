@@ -1,6 +1,5 @@
 [
     {
-        "id": "1",
         "name": "Ayu",
         "character": "ayu",
         "img": "arc/ayu.png",
@@ -15,7 +14,6 @@
         }
     },
     {
-        "id": "2",
         "name": "Eto",
         "character": "eto",
         "img": "arc/eto.png",
@@ -30,7 +28,6 @@
         }
     },
     {
-        "id": "3",
         "name": "Hikari 01",
         "character": "hikari",
         "img": "arc/hikari.png",
@@ -45,7 +42,6 @@
         }
     },
     {
-        "id": "4",
         "name": "Ilith",
         "character": "ilith",
         "img": "arc/ilith.png",
@@ -60,7 +56,6 @@
         }
     },
     {
-        "id": "5",
         "name": "Kou",
         "character": "kou",
         "img": "arc/kou.png",
@@ -75,7 +70,6 @@
         }
     },
     {
-        "id": "6",
         "name": "Lagrange",
         "character": "lagrange",
         "img": "arc/lagrange.png",
@@ -90,7 +84,6 @@
         }
     },
     {
-        "id": "7",
         "name": "Luna",
         "character": "luna",
         "img": "arc/luna.png",
@@ -105,7 +98,6 @@
         }
     },
     {
-        "id": "8",
         "name": "Maya",
         "character": "maya",
         "img": "arc/maya.png",
@@ -120,7 +112,6 @@
         }
     },
     {
-        "id": "9",
         "name": "Nami",
         "character": "nami",
         "img": "arc/nami.png",
@@ -135,7 +126,6 @@
         }
     },
     {
-        "id": "10",
         "name": "Shirahime",
         "character": "shirahime",
         "img": "arc/shirahime.png",
@@ -150,7 +140,6 @@
         }
     },
     {
-        "id": "11",
         "name": "Tairitsu 01",
         "character": "tairitsu",
         "img": "arc/tairitsu.png",
@@ -165,7 +154,6 @@
         }
     },
     {
-        "id": "12",
         "name": "Vita",
         "character": "vita",
         "img": "arc/vita.png",
@@ -180,7 +168,6 @@
         }
     },
     {
-        "id": "13",
         "name": "Hikari 02",
         "character": "hikari",
         "img": "arc/hikari2.png",
@@ -195,7 +182,6 @@
         }
     },
     {
-        "id": "14",
         "name": "Tairitsu 02",
         "character": "tairitsu",
         "img": "arc/tairitsu2.png",
@@ -210,7 +196,6 @@
         }
     },
     {
-        "id": "15",
         "name": "Kanae",
         "character": "kanae",
         "img": "arc/kanae.png",
@@ -225,7 +210,6 @@
         }
     },
     {
-        "id": "16",
         "name": "Saya",
         "character": "saya",
         "img": "arc/saya.png",
@@ -240,7 +224,6 @@
         }
     },
     {
-        "id": "17",
         "name": "Tairitsu 03",
         "character": "tairitsu",
         "img": "arc/tairitsu3.png",
@@ -255,7 +238,6 @@
         }
     },
     {
-        "id": "18",
         "name": "Shirabe",
         "character": "shirabe",
         "img": "arc/shirabe.png",
@@ -270,7 +252,6 @@
         }
     },
     {
-        "id": "19",
         "name": "Lethe",
         "character": "lethe",
         "img": "arc/lethe.png",
@@ -285,7 +266,6 @@
         }
     },
     {
-        "id": "20",
         "name": "Insight",
         "character": "insight",
         "img": "arc/insight.png",
@@ -300,7 +280,6 @@
         }
     },
     {
-        "id": "21",
         "name": "Aichan",
         "character": "aichan",
         "img": "arc/aichan.png",

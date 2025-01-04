@@ -1,6 +1,5 @@
 [
     {
-        "id": "22",
         "name": "Airi 01",
         "character": "airi",
         "img": "pjsk/airi/Airi_01.png",
@@ -14,7 +13,6 @@
         }
     },
     {
-        "id": "23",
         "name": "Airi 02",
         "character": "airi",
         "img": "pjsk/airi/Airi_02.png",
@@ -28,7 +26,6 @@
         }
     },
     {
-        "id": "24",
         "name": "Airi 03",
         "character": "airi",
         "img": "pjsk/airi/Airi_03.png",
@@ -42,7 +39,6 @@
         }
     },
     {
-        "id": "25",
         "name": "Airi 04",
         "character": "airi",
         "img": "pjsk/airi/Airi_04.png",
@@ -56,7 +52,6 @@
         }
     },
     {
-        "id": "26",
         "name": "Airi 06",
         "character": "airi",
         "img": "pjsk/airi/Airi_06.png",
@@ -70,7 +65,6 @@
         }
     },
     {
-        "id": "27",
         "name": "Airi 07",
         "character": "airi",
         "img": "pjsk/airi/Airi_07.png",
@@ -84,7 +78,6 @@
         }
     },
     {
-        "id": "28",
         "name": "Airi 08",
         "character": "airi",
         "img": "pjsk/airi/Airi_08.png",
@@ -98,7 +91,6 @@
         }
     },
     {
-        "id": "29",
         "name": "Airi 09",
         "character": "airi",
         "img": "pjsk/airi/Airi_09.png",
@@ -112,7 +104,6 @@
         }
     },
     {
-        "id": "30",
         "name": "Airi 11",
         "character": "airi",
         "img": "pjsk/airi/Airi_11.png",
@@ -126,7 +117,6 @@
         }
     },
     {
-        "id": "31",
         "name": "Airi 12",
         "character": "airi",
         "img": "pjsk/airi/Airi_12.png",
@@ -140,7 +130,6 @@
         }
     },
     {
-        "id": "32",
         "name": "Airi 13",
         "character": "airi",
         "img": "pjsk/airi/Airi_13.png",
@@ -154,7 +143,6 @@
         }
     },
     {
-        "id": "33",
         "name": "Airi 14",
         "character": "airi",
         "img": "pjsk/airi/Airi_14.png",
@@ -168,7 +156,6 @@
         }
     },
     {
-        "id": "34",
         "name": "Airi 16",
         "character": "airi",
         "img": "pjsk/airi/Airi_16.png",
@@ -182,7 +169,6 @@
         }
     },
     {
-        "id": "35",
         "name": "Akito 01",
         "character": "akito",
         "img": "pjsk/akito/Akito_01.png",
@@ -196,7 +182,6 @@
         }
     },
     {
-        "id": "36",
         "name": "Akito 02",
         "character": "akito",
         "img": "pjsk/akito/Akito_02.png",
@@ -210,7 +195,6 @@
         }
     },
     {
-        "id": "37",
         "name": "Akito 03",
         "character": "akito",
         "img": "pjsk/akito/Akito_03.png",
@@ -224,7 +208,6 @@
         }
     },
     {
-        "id": "38",
         "name": "Akito 04",
         "character": "akito",
         "img": "pjsk/akito/Akito_04.png",
@@ -238,7 +221,6 @@
         }
     },
     {
-        "id": "39",
         "name": "Akito 06",
         "character": "akito",
         "img": "pjsk/akito/Akito_06.png",
@@ -252,7 +234,6 @@
         }
     },
     {
-        "id": "40",
         "name": "Akito 07",
         "character": "akito",
         "img": "pjsk/akito/Akito_07.png",
@@ -266,7 +247,6 @@
         }
     },
     {
-        "id": "41",
         "name": "Akito 08",
         "character": "akito",
         "img": "pjsk/akito/Akito_08.png",
@@ -280,7 +260,6 @@
         }
     },
     {
-        "id": "42",
         "name": "Akito 09",
         "character": "akito",
         "img": "pjsk/akito/Akito_09.png",
@@ -294,7 +273,6 @@
         }
     },
     {
-        "id": "43",
         "name": "Akito 11",
         "character": "akito",
         "img": "pjsk/akito/Akito_11.png",
@@ -308,7 +286,6 @@
         }
     },
     {
-        "id": "44",
         "name": "Akito 12",
         "character": "akito",
         "img": "pjsk/akito/Akito_12.png",
@@ -322,7 +299,6 @@
         }
     },
     {
-        "id": "45",
         "name": "Akito 13",
         "character": "akito",
         "img": "pjsk/akito/Akito_13.png",
@@ -336,7 +312,6 @@
         }
     },
     {
-        "id": "46",
         "name": "Akito 14",
         "character": "akito",
         "img": "pjsk/akito/Akito_14.png",
@@ -350,7 +325,6 @@
         }
     },
     {
-        "id": "47",
         "name": "Akito 16",
         "character": "akito",
         "img": "pjsk/akito/Akito_16.png",
@@ -364,7 +338,6 @@
         }
     },
     {
-        "id": "48",
         "name": "An 01",
         "character": "an",
         "img": "pjsk/an/An_01.png",
@@ -378,7 +351,6 @@
         }
     },
     {
-        "id": "49",
         "name": "An 02",
         "character": "an",
         "img": "pjsk/an/An_02.png",
@@ -392,7 +364,6 @@
         }
     },
     {
-        "id": "50",
         "name": "An 03",
         "character": "an",
         "img": "pjsk/an/An_03.png",
@@ -406,7 +377,6 @@
         }
     },
     {
-        "id": "51",
         "name": "An 04",
         "character": "an",
         "img": "pjsk/an/An_04.png",
@@ -420,7 +390,6 @@
         }
     },
     {
-        "id": "52",
         "name": "An 06",
         "character": "an",
         "img": "pjsk/an/An_06.png",
@@ -434,7 +403,6 @@
         }
     },
     {
-        "id": "53",
         "name": "An 07",
         "character": "an",
         "img": "pjsk/an/An_07.png",
@@ -448,7 +416,6 @@
         }
     },
     {
-        "id": "54",
         "name": "An 08",
         "character": "an",
         "img": "pjsk/an/An_08.png",
@@ -462,7 +429,6 @@
         }
     },
     {
-        "id": "55",
         "name": "An 09",
         "character": "an",
         "img": "pjsk/an/An_09.png",
@@ -476,7 +442,6 @@
         }
     },
     {
-        "id": "56",
         "name": "An 11",
         "character": "an",
         "img": "pjsk/an/An_11.png",
@@ -490,7 +455,6 @@
         }
     },
     {
-        "id": "57",
         "name": "An 12",
         "character": "an",
         "img": "pjsk/an/An_12.png",
@@ -504,7 +468,6 @@
         }
     },
     {
-        "id": "58",
         "name": "An 13",
         "character": "an",
         "img": "pjsk/an/An_13.png",
@@ -518,7 +481,6 @@
         }
     },
     {
-        "id": "59",
         "name": "An 14",
         "character": "an",
         "img": "pjsk/an/An_14.png",
@@ -532,7 +494,6 @@
         }
     },
     {
-        "id": "60",
         "name": "An 16",
         "character": "an",
         "img": "pjsk/an/An_16.png",
@@ -546,7 +507,6 @@
         }
     },
     {
-        "id": "61",
         "name": "Emu 01",
         "character": "emu",
         "img": "pjsk/emu/Emu_01.png",
@@ -560,7 +520,6 @@
         }
     },
     {
-        "id": "62",
         "name": "Emu 02",
         "character": "emu",
         "img": "pjsk/emu/Emu_02.png",
@@ -574,7 +533,6 @@
         }
     },
     {
-        "id": "63",
         "name": "Emu 03",
         "character": "emu",
         "img": "pjsk/emu/Emu_03.png",
@@ -588,7 +546,6 @@
         }
     },
     {
-        "id": "64",
         "name": "Emu 04",
         "character": "emu",
         "img": "pjsk/emu/Emu_04.png",
@@ -602,7 +559,6 @@
         }
     },
     {
-        "id": "65",
         "name": "Emu 06",
         "character": "emu",
         "img": "pjsk/emu/Emu_06.png",
@@ -616,7 +572,6 @@
         }
     },
     {
-        "id": "66",
         "name": "Emu 07",
         "character": "emu",
         "img": "pjsk/emu/Emu_07.png",
@@ -630,7 +585,6 @@
         }
     },
     {
-        "id": "67",
         "name": "Emu 08",
         "character": "emu",
         "img": "pjsk/emu/Emu_08.png",
@@ -644,7 +598,6 @@
         }
     },
     {
-        "id": "68",
         "name": "Emu 09",
         "character": "emu",
         "img": "pjsk/emu/Emu_09.png",
@@ -658,7 +611,6 @@
         }
     },
     {
-        "id": "69",
         "name": "Emu 11",
         "character": "emu",
         "img": "pjsk/emu/Emu_11.png",
@@ -672,7 +624,6 @@
         }
     },
     {
-        "id": "70",
         "name": "Emu 12",
         "character": "emu",
         "img": "pjsk/emu/Emu_12.png",
@@ -686,7 +637,6 @@
         }
     },
     {
-        "id": "71",
         "name": "Emu 13",
         "character": "emu",
         "img": "pjsk/emu/Emu_13.png",
@@ -700,7 +650,6 @@
         }
     },
     {
-        "id": "72",
         "name": "Emu 14",
         "character": "emu",
         "img": "pjsk/emu/Emu_14.png",
@@ -714,7 +663,6 @@
         }
     },
     {
-        "id": "73",
         "name": "Emu 16",
         "character": "emu",
         "img": "pjsk/emu/Emu_16.png",
@@ -728,7 +676,6 @@
         }
     },
     {
-        "id": "74",
         "name": "Ena 01",
         "character": "ena",
         "img": "pjsk/ena/Ena_01.png",
@@ -742,7 +689,6 @@
         }
     },
     {
-        "id": "75",
         "name": "Ena 02",
         "character": "ena",
         "img": "pjsk/ena/Ena_02.png",
@@ -756,7 +702,6 @@
         }
     },
     {
-        "id": "76",
         "name": "Ena 03",
         "character": "ena",
         "img": "pjsk/ena/Ena_03.png",
@@ -770,7 +715,6 @@
         }
     },
     {
-        "id": "77",
         "name": "Ena 04",
         "character": "ena",
         "img": "pjsk/ena/Ena_04.png",
@@ -784,7 +728,6 @@
         }
     },
     {
-        "id": "78",
         "name": "Ena 06",
         "character": "ena",
         "img": "pjsk/ena/Ena_06.png",
@@ -798,7 +741,6 @@
         }
     },
     {
-        "id": "79",
         "name": "Ena 07",
         "character": "ena",
         "img": "pjsk/ena/Ena_07.png",
@@ -812,7 +754,6 @@
         }
     },
     {
-        "id": "80",
         "name": "Ena 08",
         "character": "ena",
         "img": "pjsk/ena/Ena_08.png",
@@ -826,7 +767,6 @@
         }
     },
     {
-        "id": "81",
         "name": "Ena 09",
         "character": "ena",
         "img": "pjsk/ena/Ena_09.png",
@@ -840,7 +780,6 @@
         }
     },
     {
-        "id": "82",
         "name": "Ena 11",
         "character": "ena",
         "img": "pjsk/ena/Ena_11.png",
@@ -854,7 +793,6 @@
         }
     },
     {
-        "id": "83",
         "name": "Ena 12",
         "character": "ena",
         "img": "pjsk/ena/Ena_12.png",
@@ -868,7 +806,6 @@
         }
     },
     {
-        "id": "84",
         "name": "Ena 13",
         "character": "ena",
         "img": "pjsk/ena/Ena_13.png",
@@ -882,7 +819,6 @@
         }
     },
     {
-        "id": "85",
         "name": "Ena 14",
         "character": "ena",
         "img": "pjsk/ena/Ena_14.png",
@@ -896,7 +832,6 @@
         }
     },
     {
-        "id": "86",
         "name": "Ena 16",
         "character": "ena",
         "img": "pjsk/ena/Ena_16.png",
@@ -910,7 +845,6 @@
         }
     },
     {
-        "id": "87",
         "name": "Haruka 01",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_01.png",
@@ -924,7 +858,6 @@
         }
     },
     {
-        "id": "88",
         "name": "Haruka 02",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_02.png",
@@ -938,7 +871,6 @@
         }
     },
     {
-        "id": "89",
         "name": "Haruka 03",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_03.png",
@@ -952,7 +884,6 @@
         }
     },
     {
-        "id": "90",
         "name": "Haruka 04",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_04.png",
@@ -966,7 +897,6 @@
         }
     },
     {
-        "id": "91",
         "name": "Haruka 06",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_06.png",
@@ -980,7 +910,6 @@
         }
     },
     {
-        "id": "92",
         "name": "Haruka 07",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_07.png",
@@ -994,7 +923,6 @@
         }
     },
     {
-        "id": "93",
         "name": "Haruka 08",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_08.png",
@@ -1008,7 +936,6 @@
         }
     },
     {
-        "id": "94",
         "name": "Haruka 09",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_09.png",
@@ -1022,7 +949,6 @@
         }
     },
     {
-        "id": "95",
         "name": "Haruka 11",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_11.png",
@@ -1036,7 +962,6 @@
         }
     },
     {
-        "id": "96",
         "name": "Haruka 12",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_12.png",
@@ -1050,7 +975,6 @@
         }
     },
     {
-        "id": "97",
         "name": "Haruka 13",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_13.png",
@@ -1064,7 +988,6 @@
         }
     },
     {
-        "id": "98",
         "name": "Haruka 14",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_14.png",
@@ -1078,7 +1001,6 @@
         }
     },
     {
-        "id": "99",
         "name": "Haruka 16",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_16.png",
@@ -1092,7 +1014,6 @@
         }
     },
     {
-        "id": "100",
         "name": "Honami 01",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_01.png",
@@ -1106,7 +1027,6 @@
         }
     },
     {
-        "id": "101",
         "name": "Honami 02",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_02.png",
@@ -1120,7 +1040,6 @@
         }
     },
     {
-        "id": "102",
         "name": "Honami 03",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_03.png",
@@ -1134,7 +1053,6 @@
         }
     },
     {
-        "id": "103",
         "name": "Honami 04",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_04.png",
@@ -1148,7 +1066,6 @@
         }
     },
     {
-        "id": "104",
         "name": "Honami 06",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_06.png",
@@ -1162,7 +1079,6 @@
         }
     },
     {
-        "id": "105",
         "name": "Honami 07",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_07.png",
@@ -1176,7 +1092,6 @@
         }
     },
     {
-        "id": "106",
         "name": "Honami 08",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_08.png",
@@ -1190,7 +1105,6 @@
         }
     },
     {
-        "id": "107",
         "name": "Honami 09",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_09.png",
@@ -1204,7 +1118,6 @@
         }
     },
     {
-        "id": "108",
         "name": "Honami 11",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_11.png",
@@ -1218,7 +1131,6 @@
         }
     },
     {
-        "id": "109",
         "name": "Honami 12",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_12.png",
@@ -1232,7 +1144,6 @@
         }
     },
     {
-        "id": "110",
         "name": "Honami 13",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_13.png",
@@ -1246,7 +1157,6 @@
         }
     },
     {
-        "id": "111",
         "name": "Honami 14",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_14.png",
@@ -1260,7 +1170,6 @@
         }
     },
     {
-        "id": "112",
         "name": "Honami 16",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_16.png",
@@ -1274,7 +1183,6 @@
         }
     },
     {
-        "id": "113",
         "name": "Honami 17",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_17.png",
@@ -1288,7 +1196,6 @@
         }
     },
     {
-        "id": "114",
         "name": "Honami 18",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_18.png",
@@ -1302,7 +1209,6 @@
         }
     },
     {
-        "id": "115",
         "name": "Ichika 01",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_01.png",
@@ -1316,7 +1222,6 @@
         }
     },
     {
-        "id": "116",
         "name": "Ichika 02",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_02.png",
@@ -1330,7 +1235,6 @@
         }
     },
     {
-        "id": "117",
         "name": "Ichika 03",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_03.png",
@@ -1344,7 +1248,6 @@
         }
     },
     {
-        "id": "118",
         "name": "Ichika 04",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_04.png",
@@ -1358,7 +1261,6 @@
         }
     },
     {
-        "id": "119",
         "name": "Ichika 06",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_06.png",
@@ -1372,7 +1274,6 @@
         }
     },
     {
-        "id": "120",
         "name": "Ichika 07",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_07.png",
@@ -1386,7 +1287,6 @@
         }
     },
     {
-        "id": "121",
         "name": "Ichika 08",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_08.png",
@@ -1400,7 +1300,6 @@
         }
     },
     {
-        "id": "122",
         "name": "Ichika 09",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_09.png",
@@ -1414,7 +1313,6 @@
         }
     },
     {
-        "id": "123",
         "name": "Ichika 11",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_11.png",
@@ -1428,7 +1326,6 @@
         }
     },
     {
-        "id": "124",
         "name": "Ichika 12",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_12.png",
@@ -1442,7 +1339,6 @@
         }
     },
     {
-        "id": "125",
         "name": "Ichika 13",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_13.png",
@@ -1456,7 +1352,6 @@
         }
     },
     {
-        "id": "126",
         "name": "Ichika 14",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_14.png",
@@ -1470,7 +1365,6 @@
         }
     },
     {
-        "id": "127",
         "name": "Ichika 16",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_16.png",
@@ -1484,7 +1378,6 @@
         }
     },
     {
-        "id": "128",
         "name": "Ichika 17",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_17.png",
@@ -1498,7 +1391,6 @@
         }
     },
     {
-        "id": "129",
         "name": "Ichika 18",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_18.png",
@@ -1512,7 +1404,6 @@
         }
     },
     {
-        "id": "130",
         "name": "KAITO 01",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_01.png",
@@ -1526,7 +1417,6 @@
         }
     },
     {
-        "id": "131",
         "name": "KAITO 02",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_02.png",
@@ -1540,7 +1430,6 @@
         }
     },
     {
-        "id": "132",
         "name": "KAITO 03",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_03.png",
@@ -1554,7 +1443,6 @@
         }
     },
     {
-        "id": "133",
         "name": "KAITO 04",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_04.png",
@@ -1568,7 +1456,6 @@
         }
     },
     {
-        "id": "134",
         "name": "KAITO 06",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_06.png",
@@ -1582,7 +1469,6 @@
         }
     },
     {
-        "id": "135",
         "name": "KAITO 07",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_07.png",
@@ -1596,7 +1482,6 @@
         }
     },
     {
-        "id": "136",
         "name": "KAITO 08",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_08.png",
@@ -1610,7 +1495,6 @@
         }
     },
     {
-        "id": "137",
         "name": "KAITO 09",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_09.png",
@@ -1624,7 +1508,6 @@
         }
     },
     {
-        "id": "138",
         "name": "KAITO 11",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_11.png",
@@ -1638,7 +1521,6 @@
         }
     },
     {
-        "id": "139",
         "name": "KAITO 12",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_12.png",
@@ -1652,7 +1534,6 @@
         }
     },
     {
-        "id": "140",
         "name": "KAITO 13",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_13.png",
@@ -1666,7 +1547,6 @@
         }
     },
     {
-        "id": "141",
         "name": "KAITO 14",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_14.png",
@@ -1680,7 +1560,6 @@
         }
     },
     {
-        "id": "142",
         "name": "KAITO 16",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_16.png",
@@ -1694,7 +1573,6 @@
         }
     },
     {
-        "id": "143",
         "name": "Kanade 01",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_01.png",
@@ -1708,7 +1586,6 @@
         }
     },
     {
-        "id": "144",
         "name": "Kanade 02",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_02.png",
@@ -1722,7 +1599,6 @@
         }
     },
     {
-        "id": "145",
         "name": "Kanade 03",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_03.png",
@@ -1736,7 +1612,6 @@
         }
     },
     {
-        "id": "146",
         "name": "Kanade 04",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_04.png",
@@ -1750,7 +1625,6 @@
         }
     },
     {
-        "id": "147",
         "name": "Kanade 06",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_06.png",
@@ -1764,7 +1638,6 @@
         }
     },
     {
-        "id": "148",
         "name": "Kanade 07",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_07.png",
@@ -1778,7 +1651,6 @@
         }
     },
     {
-        "id": "149",
         "name": "Kanade 08",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_08.png",
@@ -1792,7 +1664,6 @@
         }
     },
     {
-        "id": "150",
         "name": "Kanade 09",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_09.png",
@@ -1806,7 +1677,6 @@
         }
     },
     {
-        "id": "151",
         "name": "Kanade 11",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_11.png",
@@ -1820,7 +1690,6 @@
         }
     },
     {
-        "id": "152",
         "name": "Kanade 12",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_12.png",
@@ -1834,7 +1703,6 @@
         }
     },
     {
-        "id": "153",
         "name": "Kanade 13",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_13.png",
@@ -1848,7 +1716,6 @@
         }
     },
     {
-        "id": "154",
         "name": "Kanade 14",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_14.png",
@@ -1862,7 +1729,6 @@
         }
     },
     {
-        "id": "155",
         "name": "Kanade 16",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_16.png",
@@ -1876,7 +1742,6 @@
         }
     },
     {
-        "id": "156",
         "name": "Kanade 17",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_17.png",
@@ -1890,7 +1755,6 @@
         }
     },
     {
-        "id": "157",
         "name": "Kohane 01",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_01.png",
@@ -1904,7 +1768,6 @@
         }
     },
     {
-        "id": "158",
         "name": "Kohane 02",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_02.png",
@@ -1918,7 +1781,6 @@
         }
     },
     {
-        "id": "159",
         "name": "Kohane 03",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_03.png",
@@ -1932,7 +1794,6 @@
         }
     },
     {
-        "id": "160",
         "name": "Kohane 04",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_04.png",
@@ -1946,7 +1807,6 @@
         }
     },
     {
-        "id": "161",
         "name": "Kohane 06",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_06.png",
@@ -1960,7 +1820,6 @@
         }
     },
     {
-        "id": "162",
         "name": "Kohane 07",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_07.png",
@@ -1974,7 +1833,6 @@
         }
     },
     {
-        "id": "163",
         "name": "Kohane 08",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_08.png",
@@ -1988,7 +1846,6 @@
         }
     },
     {
-        "id": "164",
         "name": "Kohane 09",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_09.png",
@@ -2002,7 +1859,6 @@
         }
     },
     {
-        "id": "165",
         "name": "Kohane 11",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_11.png",
@@ -2016,7 +1872,6 @@
         }
     },
     {
-        "id": "166",
         "name": "Kohane 12",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_12.png",
@@ -2030,7 +1885,6 @@
         }
     },
     {
-        "id": "167",
         "name": "Kohane 13",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_13.png",
@@ -2044,7 +1898,6 @@
         }
     },
     {
-        "id": "168",
         "name": "Kohane 14",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_14.png",
@@ -2058,7 +1911,6 @@
         }
     },
     {
-        "id": "169",
         "name": "Kohane 16",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_16.png",
@@ -2072,7 +1924,6 @@
         }
     },
     {
-        "id": "170",
         "name": "Kohane 17",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_17.png",
@@ -2086,7 +1937,6 @@
         }
     },
     {
-        "id": "171",
         "name": "Len 01",
         "character": "Len",
         "img": "pjsk/Len/Len_01.png",
@@ -2100,7 +1950,6 @@
         }
     },
     {
-        "id": "172",
         "name": "Len 02",
         "character": "Len",
         "img": "pjsk/Len/Len_02.png",
@@ -2114,7 +1963,6 @@
         }
     },
     {
-        "id": "173",
         "name": "Len 03",
         "character": "Len",
         "img": "pjsk/Len/Len_03.png",
@@ -2128,7 +1976,6 @@
         }
     },
     {
-        "id": "174",
         "name": "Len 04",
         "character": "Len",
         "img": "pjsk/Len/Len_04.png",
@@ -2142,7 +1989,6 @@
         }
     },
     {
-        "id": "175",
         "name": "Len 06",
         "character": "Len",
         "img": "pjsk/Len/Len_06.png",
@@ -2156,7 +2002,6 @@
         }
     },
     {
-        "id": "176",
         "name": "Len 07",
         "character": "Len",
         "img": "pjsk/Len/Len_07.png",
@@ -2170,7 +2015,6 @@
         }
     },
     {
-        "id": "177",
         "name": "Len 08",
         "character": "Len",
         "img": "pjsk/Len/Len_08.png",
@@ -2184,7 +2028,6 @@
         }
     },
     {
-        "id": "178",
         "name": "Len 09",
         "character": "Len",
         "img": "pjsk/Len/Len_09.png",
@@ -2198,7 +2041,6 @@
         }
     },
     {
-        "id": "179",
         "name": "Len 11",
         "character": "Len",
         "img": "pjsk/Len/Len_11.png",
@@ -2212,7 +2054,6 @@
         }
     },
     {
-        "id": "180",
         "name": "Len 12",
         "character": "Len",
         "img": "pjsk/Len/Len_12.png",
@@ -2226,7 +2067,6 @@
         }
     },
     {
-        "id": "181",
         "name": "Len 13",
         "character": "Len",
         "img": "pjsk/Len/Len_13.png",
@@ -2240,7 +2080,6 @@
         }
     },
     {
-        "id": "182",
         "name": "Len 14",
         "character": "Len",
         "img": "pjsk/Len/Len_14.png",
@@ -2254,7 +2093,6 @@
         }
     },
     {
-        "id": "183",
         "name": "Len 16",
         "character": "Len",
         "img": "pjsk/Len/Len_16.png",
@@ -2268,7 +2106,6 @@
         }
     },
     {
-        "id": "184",
         "name": "Len 17",
         "character": "Len",
         "img": "pjsk/Len/Len_17.png",
@@ -2282,7 +2119,6 @@
         }
     },
     {
-        "id": "185",
         "name": "Luka 01",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_01.png",
@@ -2296,7 +2132,6 @@
         }
     },
     {
-        "id": "186",
         "name": "Luka 02",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_02.png",
@@ -2310,7 +2145,6 @@
         }
     },
     {
-        "id": "187",
         "name": "Luka 03",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_03.png",
@@ -2324,7 +2158,6 @@
         }
     },
     {
-        "id": "188",
         "name": "Luka 04",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_04.png",
@@ -2338,7 +2171,6 @@
         }
     },
     {
-        "id": "189",
         "name": "Luka 06",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_06.png",
@@ -2352,7 +2184,6 @@
         }
     },
     {
-        "id": "190",
         "name": "Luka 07",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_07.png",
@@ -2366,7 +2197,6 @@
         }
     },
     {
-        "id": "191",
         "name": "Luka 08",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_08.png",
@@ -2380,7 +2210,6 @@
         }
     },
     {
-        "id": "192",
         "name": "Luka 09",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_09.png",
@@ -2394,7 +2223,6 @@
         }
     },
     {
-        "id": "193",
         "name": "Luka 11",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_11.png",
@@ -2408,7 +2236,6 @@
         }
     },
     {
-        "id": "194",
         "name": "Luka 12",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_12.png",
@@ -2422,7 +2249,6 @@
         }
     },
     {
-        "id": "195",
         "name": "Luka 13",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_13.png",
@@ -2436,7 +2262,6 @@
         }
     },
     {
-        "id": "196",
         "name": "Luka 14",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_14.png",
@@ -2450,7 +2275,6 @@
         }
     },
     {
-        "id": "197",
         "name": "Luka 16",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_16.png",
@@ -2464,7 +2288,6 @@
         }
     },
     {
-        "id": "198",
         "name": "Mafuyu 01",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_01.png",
@@ -2478,7 +2301,6 @@
         }
     },
     {
-        "id": "199",
         "name": "Mafuyu 02",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_02.png",
@@ -2492,7 +2314,6 @@
         }
     },
     {
-        "id": "200",
         "name": "Mafuyu 03",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_03.png",
@@ -2506,7 +2327,6 @@
         }
     },
     {
-        "id": "201",
         "name": "Mafuyu 04",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_04.png",
@@ -2520,7 +2340,6 @@
         }
     },
     {
-        "id": "202",
         "name": "Mafuyu 06",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_06.png",
@@ -2534,7 +2353,6 @@
         }
     },
     {
-        "id": "203",
         "name": "Mafuyu 07",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_07.png",
@@ -2548,7 +2366,6 @@
         }
     },
     {
-        "id": "204",
         "name": "Mafuyu 08",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_08.png",
@@ -2562,7 +2379,6 @@
         }
     },
     {
-        "id": "205",
         "name": "Mafuyu 09",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_09.png",
@@ -2576,7 +2392,6 @@
         }
     },
     {
-        "id": "206",
         "name": "Mafuyu 11",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_11.png",
@@ -2590,7 +2405,6 @@
         }
     },
     {
-        "id": "207",
         "name": "Mafuyu 12",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_12.png",
@@ -2604,7 +2418,6 @@
         }
     },
     {
-        "id": "208",
         "name": "Mafuyu 13",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_13.png",
@@ -2618,7 +2431,6 @@
         }
     },
     {
-        "id": "209",
         "name": "Mafuyu 14",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_14.png",
@@ -2632,7 +2444,6 @@
         }
     },
     {
-        "id": "210",
         "name": "Mafuyu 16",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_16.png",
@@ -2646,7 +2457,6 @@
         }
     },
     {
-        "id": "211",
         "name": "Mafuyu 17",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_17.png",
@@ -2660,7 +2470,6 @@
         }
     },
     {
-        "id": "212",
         "name": "Meiko 01",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_01.png",
@@ -2674,7 +2483,6 @@
         }
     },
     {
-        "id": "213",
         "name": "Meiko 02",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_02.png",
@@ -2688,7 +2496,6 @@
         }
     },
     {
-        "id": "214",
         "name": "Meiko 03",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_03.png",
@@ -2702,7 +2509,6 @@
         }
     },
     {
-        "id": "215",
         "name": "Meiko 04",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_04.png",
@@ -2716,7 +2522,6 @@
         }
     },
     {
-        "id": "216",
         "name": "Meiko 06",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_06.png",
@@ -2730,7 +2535,6 @@
         }
     },
     {
-        "id": "217",
         "name": "Meiko 07",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_07.png",
@@ -2744,7 +2548,6 @@
         }
     },
     {
-        "id": "218",
         "name": "Meiko 08",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_08.png",
@@ -2758,7 +2561,6 @@
         }
     },
     {
-        "id": "219",
         "name": "Meiko 09",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_09.png",
@@ -2772,7 +2574,6 @@
         }
     },
     {
-        "id": "220",
         "name": "Meiko 11",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_11.png",
@@ -2786,7 +2587,6 @@
         }
     },
     {
-        "id": "221",
         "name": "Meiko 12",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_12.png",
@@ -2800,7 +2600,6 @@
         }
     },
     {
-        "id": "222",
         "name": "Meiko 13",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_13.png",
@@ -2814,7 +2613,6 @@
         }
     },
     {
-        "id": "223",
         "name": "Meiko 14",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_14.png",
@@ -2828,7 +2626,6 @@
         }
     },
     {
-        "id": "224",
         "name": "Meiko 16",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_16.png",
@@ -2842,7 +2639,6 @@
         }
     },
     {
-        "id": "225",
         "name": "Miku 01",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_01.png",
@@ -2856,7 +2652,6 @@
         }
     },
     {
-        "id": "226",
         "name": "Miku 02",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_02.png",
@@ -2870,7 +2665,6 @@
         }
     },
     {
-        "id": "227",
         "name": "Miku 03",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_03.png",
@@ -2884,7 +2678,6 @@
         }
     },
     {
-        "id": "228",
         "name": "Miku 04",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_04.png",
@@ -2898,7 +2691,6 @@
         }
     },
     {
-        "id": "229",
         "name": "Miku 06",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_06.png",
@@ -2912,7 +2704,6 @@
         }
     },
     {
-        "id": "230",
         "name": "Miku 07",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_07.png",
@@ -2926,7 +2717,6 @@
         }
     },
     {
-        "id": "231",
         "name": "Miku 08",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_08.png",
@@ -2940,7 +2730,6 @@
         }
     },
     {
-        "id": "232",
         "name": "Miku 09",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_09.png",
@@ -2954,7 +2743,6 @@
         }
     },
     {
-        "id": "233",
         "name": "Miku 11",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_11.png",
@@ -2968,7 +2756,6 @@
         }
     },
     {
-        "id": "234",
         "name": "Miku 12",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_12.png",
@@ -2982,7 +2769,6 @@
         }
     },
     {
-        "id": "235",
         "name": "Miku 13",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_13.png",
@@ -2996,7 +2782,6 @@
         }
     },
     {
-        "id": "236",
         "name": "Miku 14",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_14.png",
@@ -3010,7 +2795,6 @@
         }
     },
     {
-        "id": "237",
         "name": "Miku 16",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_16.png",
@@ -3024,7 +2808,6 @@
         }
     },
     {
-        "id": "238",
         "name": "Minori 01",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_01.png",
@@ -3038,7 +2821,6 @@
         }
     },
     {
-        "id": "239",
         "name": "Minori 02",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_02.png",
@@ -3052,7 +2834,6 @@
         }
     },
     {
-        "id": "240",
         "name": "Minori 03",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_03.png",
@@ -3066,7 +2847,6 @@
         }
     },
     {
-        "id": "241",
         "name": "Minori 04",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_04.png",
@@ -3080,7 +2860,6 @@
         }
     },
     {
-        "id": "242",
         "name": "Minori 06",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_06.png",
@@ -3094,7 +2873,6 @@
         }
     },
     {
-        "id": "243",
         "name": "Minori 07",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_07.png",
@@ -3108,7 +2886,6 @@
         }
     },
     {
-        "id": "244",
         "name": "Minori 08",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_08.png",
@@ -3122,7 +2899,6 @@
         }
     },
     {
-        "id": "245",
         "name": "Minori 09",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_09.png",
@@ -3136,7 +2912,6 @@
         }
     },
     {
-        "id": "246",
         "name": "Minori 11",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_11.png",
@@ -3150,7 +2925,6 @@
         }
     },
     {
-        "id": "247",
         "name": "Minori 12",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_12.png",
@@ -3164,7 +2938,6 @@
         }
     },
     {
-        "id": "248",
         "name": "Minori 13",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_13.png",
@@ -3178,7 +2951,6 @@
         }
     },
     {
-        "id": "249",
         "name": "Minori 14",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_14.png",
@@ -3192,7 +2964,6 @@
         }
     },
     {
-        "id": "250",
         "name": "Minori 16",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_16.png",
@@ -3206,7 +2977,6 @@
         }
     },
     {
-        "id": "251",
         "name": "Minori 17",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_17.png",
@@ -3220,7 +2990,6 @@
         }
     },
     {
-        "id": "252",
         "name": "Mizuki 01",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_01.png",
@@ -3234,7 +3003,6 @@
         }
     },
     {
-        "id": "253",
         "name": "Mizuki 02",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_02.png",
@@ -3248,7 +3016,6 @@
         }
     },
     {
-        "id": "254",
         "name": "Mizuki 03",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_03.png",
@@ -3262,7 +3029,6 @@
         }
     },
     {
-        "id": "255",
         "name": "Mizuki 04",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_04.png",
@@ -3276,7 +3042,6 @@
         }
     },
     {
-        "id": "256",
         "name": "Mizuki 06",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_06.png",
@@ -3290,7 +3055,6 @@
         }
     },
     {
-        "id": "257",
         "name": "Mizuki 07",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_07.png",
@@ -3304,7 +3068,6 @@
         }
     },
     {
-        "id": "258",
         "name": "Mizuki 08",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_08.png",
@@ -3318,7 +3081,6 @@
         }
     },
     {
-        "id": "259",
         "name": "Mizuki 09",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_09.png",
@@ -3332,7 +3094,6 @@
         }
     },
     {
-        "id": "260",
         "name": "Mizuki 11",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_11.png",
@@ -3346,7 +3107,6 @@
         }
     },
     {
-        "id": "261",
         "name": "Mizuki 12",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_12.png",
@@ -3360,7 +3120,6 @@
         }
     },
     {
-        "id": "262",
         "name": "Mizuki 13",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_13.png",
@@ -3374,7 +3133,6 @@
         }
     },
     {
-        "id": "263",
         "name": "Mizuki 14",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_14.png",
@@ -3388,7 +3146,6 @@
         }
     },
     {
-        "id": "264",
         "name": "Mizuki 16",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_16.png",
@@ -3402,7 +3159,6 @@
         }
     },
     {
-        "id": "265",
         "name": "Mizuki 17",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_17.png",
@@ -3416,7 +3172,6 @@
         }
     },
     {
-        "id": "266",
         "name": "Nene 01",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_01.png",
@@ -3430,7 +3185,6 @@
         }
     },
     {
-        "id": "267",
         "name": "Nene 02",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_02.png",
@@ -3444,7 +3198,6 @@
         }
     },
     {
-        "id": "268",
         "name": "Nene 03",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_03.png",
@@ -3458,7 +3211,6 @@
         }
     },
     {
-        "id": "269",
         "name": "Nene 04",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_04.png",
@@ -3472,7 +3224,6 @@
         }
     },
     {
-        "id": "270",
         "name": "Nene 06",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_06.png",
@@ -3486,7 +3237,6 @@
         }
     },
     {
-        "id": "271",
         "name": "Nene 07",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_07.png",
@@ -3500,7 +3250,6 @@
         }
     },
     {
-        "id": "272",
         "name": "Nene 08",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_08.png",
@@ -3514,7 +3263,6 @@
         }
     },
     {
-        "id": "273",
         "name": "Nene 09",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_09.png",
@@ -3528,7 +3276,6 @@
         }
     },
     {
-        "id": "274",
         "name": "Nene 11",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_11.png",
@@ -3542,7 +3289,6 @@
         }
     },
     {
-        "id": "275",
         "name": "Nene 12",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_12.png",
@@ -3556,7 +3302,6 @@
         }
     },
     {
-        "id": "276",
         "name": "Nene 13",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_13.png",
@@ -3570,7 +3315,6 @@
         }
     },
     {
-        "id": "277",
         "name": "Nene 14",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_14.png",
@@ -3584,7 +3328,6 @@
         }
     },
     {
-        "id": "278",
         "name": "Nene 16",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_16.png",
@@ -3598,7 +3341,6 @@
         }
     },
     {
-        "id": "279",
         "name": "Rin 01",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_01.png",
@@ -3612,7 +3354,6 @@
         }
     },
     {
-        "id": "280",
         "name": "Rin 02",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_02.png",
@@ -3626,7 +3367,6 @@
         }
     },
     {
-        "id": "281",
         "name": "Rin 03",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_03.png",
@@ -3640,7 +3380,6 @@
         }
     },
     {
-        "id": "282",
         "name": "Rin 04",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_04.png",
@@ -3654,7 +3393,6 @@
         }
     },
     {
-        "id": "283",
         "name": "Rin 06",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_06.png",
@@ -3668,7 +3406,6 @@
         }
     },
     {
-        "id": "284",
         "name": "Rin 07",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_07.png",
@@ -3682,7 +3419,6 @@
         }
     },
     {
-        "id": "285",
         "name": "Rin 08",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_08.png",
@@ -3696,7 +3432,6 @@
         }
     },
     {
-        "id": "286",
         "name": "Rin 09",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_09.png",
@@ -3710,7 +3445,6 @@
         }
     },
     {
-        "id": "287",
         "name": "Rin 11",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_11.png",
@@ -3724,7 +3458,6 @@
         }
     },
     {
-        "id": "288",
         "name": "Rin 12",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_12.png",
@@ -3738,7 +3471,6 @@
         }
     },
     {
-        "id": "289",
         "name": "Rin 13",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_13.png",
@@ -3752,7 +3484,6 @@
         }
     },
     {
-        "id": "290",
         "name": "Rin 14",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_14.png",
@@ -3766,7 +3497,6 @@
         }
     },
     {
-        "id": "291",
         "name": "Rin 16",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_16.png",
@@ -3780,7 +3510,6 @@
         }
     },
     {
-        "id": "292",
         "name": "Rui 01",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_01.png",
@@ -3794,7 +3523,6 @@
         }
     },
     {
-        "id": "293",
         "name": "Rui 02",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_02.png",
@@ -3808,7 +3536,6 @@
         }
     },
     {
-        "id": "294",
         "name": "Rui 03",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_03.png",
@@ -3822,7 +3549,6 @@
         }
     },
     {
-        "id": "295",
         "name": "Rui 04",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_04.png",
@@ -3836,7 +3562,6 @@
         }
     },
     {
-        "id": "296",
         "name": "Rui 06",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_06.png",
@@ -3850,7 +3575,6 @@
         }
     },
     {
-        "id": "297",
         "name": "Rui 07",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_07.png",
@@ -3864,7 +3588,6 @@
         }
     },
     {
-        "id": "298",
         "name": "Rui 08",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_08.png",
@@ -3878,7 +3601,6 @@
         }
     },
     {
-        "id": "299",
         "name": "Rui 09",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_09.png",
@@ -3892,7 +3614,6 @@
         }
     },
     {
-        "id": "300",
         "name": "Rui 11",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_11.png",
@@ -3906,7 +3627,6 @@
         }
     },
     {
-        "id": "301",
         "name": "Rui 12",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_12.png",
@@ -3920,7 +3640,6 @@
         }
     },
     {
-        "id": "302",
         "name": "Rui 13",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_13.png",
@@ -3934,7 +3653,6 @@
         }
     },
     {
-        "id": "303",
         "name": "Rui 14",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_14.png",
@@ -3948,7 +3666,6 @@
         }
     },
     {
-        "id": "304",
         "name": "Rui 16",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_16.png",
@@ -3962,7 +3679,6 @@
         }
     },
     {
-        "id": "305",
         "name": "Rui 17",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_17.png",
@@ -3976,7 +3692,6 @@
         }
     },
     {
-        "id": "306",
         "name": "Rui 18",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_18.png",
@@ -3990,7 +3705,6 @@
         }
     },
     {
-        "id": "307",
         "name": "Rui 19",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_19.png",
@@ -4004,7 +3718,6 @@
         }
     },
     {
-        "id": "308",
         "name": "Saki 01",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_01.png",
@@ -4018,7 +3731,6 @@
         }
     },
     {
-        "id": "309",
         "name": "Saki 02",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_02.png",
@@ -4032,7 +3744,6 @@
         }
     },
     {
-        "id": "310",
         "name": "Saki 03",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_03.png",
@@ -4046,7 +3757,6 @@
         }
     },
     {
-        "id": "311",
         "name": "Saki 04",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_04.png",
@@ -4060,7 +3770,6 @@
         }
     },
     {
-        "id": "312",
         "name": "Saki 06",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_06.png",
@@ -4074,7 +3783,6 @@
         }
     },
     {
-        "id": "313",
         "name": "Saki 07",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_07.png",
@@ -4088,7 +3796,6 @@
         }
     },
     {
-        "id": "314",
         "name": "Saki 08",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_08.png",
@@ -4102,7 +3809,6 @@
         }
     },
     {
-        "id": "315",
         "name": "Saki 09",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_09.png",
@@ -4116,7 +3822,6 @@
         }
     },
     {
-        "id": "316",
         "name": "Saki 11",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_11.png",
@@ -4130,7 +3835,6 @@
         }
     },
     {
-        "id": "317",
         "name": "Saki 12",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_12.png",
@@ -4144,7 +3848,6 @@
         }
     },
     {
-        "id": "318",
         "name": "Saki 13",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_13.png",
@@ -4158,7 +3861,6 @@
         }
     },
     {
-        "id": "319",
         "name": "Saki 14",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_14.png",
@@ -4172,7 +3874,6 @@
         }
     },
     {
-        "id": "320",
         "name": "Saki 16",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_16.png",
@@ -4186,7 +3887,6 @@
         }
     },
     {
-        "id": "321",
         "name": "Saki 17",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_17.png",
@@ -4200,7 +3900,6 @@
         }
     },
     {
-        "id": "322",
         "name": "Saki 18",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_18.png",
@@ -4214,7 +3913,6 @@
         }
     },
     {
-        "id": "323",
         "name": "Shiho 01",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_01.png",
@@ -4228,7 +3926,6 @@
         }
     },
     {
-        "id": "324",
         "name": "Shiho 02",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_02.png",
@@ -4242,7 +3939,6 @@
         }
     },
     {
-        "id": "325",
         "name": "Shiho 03",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_03.png",
@@ -4256,7 +3952,6 @@
         }
     },
     {
-        "id": "326",
         "name": "Shiho 04",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_04.png",
@@ -4270,7 +3965,6 @@
         }
     },
     {
-        "id": "327",
         "name": "Shiho 06",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_06.png",
@@ -4284,7 +3978,6 @@
         }
     },
     {
-        "id": "328",
         "name": "Shiho 07",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_07.png",
@@ -4298,7 +3991,6 @@
         }
     },
     {
-        "id": "329",
         "name": "Shiho 08",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_08.png",
@@ -4312,7 +4004,6 @@
         }
     },
     {
-        "id": "330",
         "name": "Shiho 09",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_09.png",
@@ -4326,7 +4017,6 @@
         }
     },
     {
-        "id": "331",
         "name": "Shiho 11",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_11.png",
@@ -4340,7 +4030,6 @@
         }
     },
     {
-        "id": "332",
         "name": "Shiho 12",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_12.png",
@@ -4354,7 +4043,6 @@
         }
     },
     {
-        "id": "333",
         "name": "Shiho 13",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_13.png",
@@ -4368,7 +4056,6 @@
         }
     },
     {
-        "id": "334",
         "name": "Shiho 14",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_14.png",
@@ -4382,7 +4069,6 @@
         }
     },
     {
-        "id": "335",
         "name": "Shiho 16",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_16.png",
@@ -4396,7 +4082,6 @@
         }
     },
     {
-        "id": "336",
         "name": "Shiho 17",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_17.png",
@@ -4410,7 +4095,6 @@
         }
     },
     {
-        "id": "337",
         "name": "Shiho 18",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_18.png",
@@ -4424,7 +4108,6 @@
         }
     },
     {
-        "id": "338",
         "name": "Shizuku 01",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_01.png",
@@ -4438,7 +4121,6 @@
         }
     },
     {
-        "id": "339",
         "name": "Shizuku 02",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_02.png",
@@ -4452,7 +4134,6 @@
         }
     },
     {
-        "id": "340",
         "name": "Shizuku 03",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_03.png",
@@ -4466,7 +4147,6 @@
         }
     },
     {
-        "id": "341",
         "name": "Shizuku 04",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_04.png",
@@ -4480,7 +4160,6 @@
         }
     },
     {
-        "id": "342",
         "name": "Shizuku 06",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_06.png",
@@ -4494,7 +4173,6 @@
         }
     },
     {
-        "id": "343",
         "name": "Shizuku 07",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_07.png",
@@ -4508,7 +4186,6 @@
         }
     },
     {
-        "id": "344",
         "name": "Shizuku 08",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_08.png",
@@ -4522,7 +4199,6 @@
         }
     },
     {
-        "id": "345",
         "name": "Shizuku 09",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_09.png",
@@ -4536,7 +4212,6 @@
         }
     },
     {
-        "id": "346",
         "name": "Shizuku 11",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_11.png",
@@ -4550,7 +4225,6 @@
         }
     },
     {
-        "id": "347",
         "name": "Shizuku 12",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_12.png",
@@ -4564,7 +4238,6 @@
         }
     },
     {
-        "id": "348",
         "name": "Shizuku 13",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_13.png",
@@ -4578,7 +4251,6 @@
         }
     },
     {
-        "id": "349",
         "name": "Shizuku 14",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_14.png",
@@ -4592,7 +4264,6 @@
         }
     },
     {
-        "id": "350",
         "name": "Shizuku 16",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_16.png",
@@ -4606,7 +4277,6 @@
         }
     },
     {
-        "id": "351",
         "name": "Touya 01",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_01.png",
@@ -4620,7 +4290,6 @@
         }
     },
     {
-        "id": "352",
         "name": "Touya 02",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_02.png",
@@ -4634,7 +4303,6 @@
         }
     },
     {
-        "id": "353",
         "name": "Touya 03",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_03.png",
@@ -4648,7 +4316,6 @@
         }
     },
     {
-        "id": "354",
         "name": "Touya 04",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_04.png",
@@ -4662,7 +4329,6 @@
         }
     },
     {
-        "id": "355",
         "name": "Touya 06",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_06.png",
@@ -4676,7 +4342,6 @@
         }
     },
     {
-        "id": "356",
         "name": "Touya 07",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_07.png",
@@ -4690,7 +4355,6 @@
         }
     },
     {
-        "id": "357",
         "name": "Touya 08",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_08.png",
@@ -4704,7 +4368,6 @@
         }
     },
     {
-        "id": "358",
         "name": "Touya 09",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_09.png",
@@ -4718,7 +4381,6 @@
         }
     },
     {
-        "id": "359",
         "name": "Touya 11",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_11.png",
@@ -4732,7 +4394,6 @@
         }
     },
     {
-        "id": "360",
         "name": "Touya 12",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_12.png",
@@ -4746,7 +4407,6 @@
         }
     },
     {
-        "id": "361",
         "name": "Touya 13",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_13.png",
@@ -4760,7 +4420,6 @@
         }
     },
     {
-        "id": "362",
         "name": "Touya 14",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_14.png",
@@ -4774,7 +4433,6 @@
         }
     },
     {
-        "id": "363",
         "name": "Touya 16",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_16.png",
@@ -4788,7 +4446,6 @@
         }
     },
     {
-        "id": "364",
         "name": "Touya 17",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_17.png",
@@ -4802,7 +4459,6 @@
         }
     },
     {
-        "id": "365",
         "name": "Touya 18",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_18.png",
@@ -4816,7 +4472,6 @@
         }
     },
     {
-        "id": "366",
         "name": "Tsukasa 01",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_01.png",
@@ -4830,7 +4485,6 @@
         }
     },
     {
-        "id": "367",
         "name": "Tsukasa 02",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_02.png",
@@ -4844,7 +4498,6 @@
         }
     },
     {
-        "id": "368",
         "name": "Tsukasa 03",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_03.png",
@@ -4858,7 +4511,6 @@
         }
     },
     {
-        "id": "369",
         "name": "Tsukasa 04",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_04.png",
@@ -4872,7 +4524,6 @@
         }
     },
     {
-        "id": "370",
         "name": "Tsukasa 06",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_06.png",
@@ -4886,7 +4537,6 @@
         }
     },
     {
-        "id": "371",
         "name": "Tsukasa 07",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_07.png",
@@ -4900,7 +4550,6 @@
         }
     },
     {
-        "id": "372",
         "name": "Tsukasa 08",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_08.png",
@@ -4914,7 +4563,6 @@
         }
     },
     {
-        "id": "373",
         "name": "Tsukasa 09",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_09.png",
@@ -4928,7 +4576,6 @@
         }
     },
     {
-        "id": "374",
         "name": "Tsukasa 11",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_11.png",
@@ -4942,7 +4589,6 @@
         }
     },
     {
-        "id": "375",
         "name": "Tsukasa 12",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_12.png",
@@ -4956,7 +4602,6 @@
         }
     },
     {
-        "id": "376",
         "name": "Tsukasa 13",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_13.png",
@@ -4970,7 +4615,6 @@
         }
     },
     {
-        "id": "377",
         "name": "Tsukasa 14",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_14.png",
@@ -4984,7 +4628,6 @@
         }
     },
     {
-        "id": "378",
         "name": "Tsukasa 16",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_16.png",
@@ -4998,7 +4641,6 @@
         }
     },
     {
-        "id": "379",
         "name": "Tsukasa 17",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_17.png",
@@ -5012,7 +4654,6 @@
         }
     },
     {
-        "id": "380",
         "name": "Tsukasa 18",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_18.png",
