@@ -1,7 +1,7 @@
+import { useState, useEffect } from "react";
 import SSFangTangTi from "./fonts/ShangShouFangTangTi.woff2";
 import "./App.css";
 import Canvas from "./components/Canvas";
-import { useState, useEffect } from "react";
 import arc_characters from "./arc_characters.json";
 import pjsk_characters from "./pjsk_characters.json";
 import Slider from "@mui/material/Slider";
@@ -12,6 +12,7 @@ import Snackbar from "@mui/material/Snackbar";
 import Picker from "./components/Picker";
 import Info from "./components/Info";
 import { preloadFont } from "./utils/preload";
+import { SketchPicker } from 'react-color'; // 引入颜色选择器组件
 
 const { ClipboardItem } = window;
 const characters = [].concat(arc_characters, pjsk_characters);
@@ -32,6 +33,10 @@ function App() {
   const [curve, setCurve] = useState(false);
   const [curveAmount, setCurveAmount] = useState(0.15);
   const [loaded, setLoaded] = useState(false);
+  const [colorPickerVisible, setColorPickerVisible] = useState(false); // 控制字体颜色选择器显示
+  const [strokeColorPickerVisible, setStrokeColorPickerVisible] = useState(false); // 控制描边颜色选择器显示
+  const [fontColor, setFontColor] = useState(characters[character].fillColor); // 字体颜色
+  const [strokeColor, setStrokeColor] = useState(characters[character].strokeColor); // 描边颜色
   const img = new Image();
 
   // Preload font
@@ -58,12 +63,24 @@ function App() {
     });
     setRotate(characters[character].defaultText.r);
     setFontSize(characters[character].defaultText.s);
+    setFontColor(characters[character].fillColor);  // 更新字体颜色
+    setStrokeColor(characters[character].strokeColor); // 更新描边颜色
     setLoaded(false);
   }, [character]);
 
   img.src = `${process.env.PUBLIC_URL}/img/` + characters[character].img;
   img.onload = () => {
     setLoaded(true);
+  };
+
+  // 处理字体颜色变化
+  const handleFontColorChange = (color) => {
+    setFontColor(color.hex); // 更新字体颜色
+  };
+
+  // 处理描边颜色变化
+  const handleStrokeColorChange = (color) => {
+    setStrokeColor(color.hex); // 更新描边颜色
   };
 
   const draw = (ctx) => {
@@ -95,7 +112,7 @@ function App() {
       ctx.translate(position.x, position.y);
       ctx.rotate(rotate / 10);
       ctx.textAlign = "center";
-      ctx.fillStyle = characters[character].fillColor;
+      ctx.fillStyle = fontColor; // 使用更新后的字体颜色
       const lines = text.split("\n");
 
       if (curve) {
@@ -113,7 +130,7 @@ function App() {
                 ctx.lineWidth = 15;
                 ctx.strokeText(line[i], 0, 0);
               } else {
-                ctx.strokeStyle = characters[character].strokeColor;
+                ctx.strokeStyle = strokeColor; // 使用更新后的描边颜色
                 ctx.lineWidth = 5;
                 ctx.strokeText(line[i], 0, 0);
                 ctx.fillText(line[i], 0, 0);
@@ -134,7 +151,7 @@ function App() {
               ctx.lineWidth = 15;
               ctx.strokeText(lines[i], 0, k);
             } else {
-              ctx.strokeStyle = characters[character].strokeColor;
+              ctx.strokeStyle = strokeColor; // 使用更新后的描边颜色
               ctx.lineWidth = 5;
               ctx.strokeText(lines[i], 0, k);
               ctx.fillText(lines[i], 0, k);
@@ -150,7 +167,7 @@ function App() {
   const download = async () => {
     const canvas = document.getElementsByTagName("canvas")[0];
     const link = document.createElement("a");
-    link.download = `${characters[character].name}_arcst.yurisaki.top.png`;
+    link.download = `${characters[character].name}.png`;
     link.href = canvas.toDataURL();
     link.style.display = "none";
     document.body.appendChild(link);
@@ -224,7 +241,7 @@ function App() {
               <Slider
                 value={rotate}
                 onChange={(e, v) => setRotate(v)}
-                min={-10}
+                min={-30}
                 max={10}
                 step={0.2}
                 track={false}
@@ -266,6 +283,60 @@ function App() {
                 track={false}
                 color="secondary"
               />
+            </div>
+
+            {/* 字体颜色调整开关 */}
+            <div style={{ position: 'relative' }}>
+              <label>
+                <nobr>字体颜色调整: </nobr>
+              </label>
+              <Switch
+                checked={colorPickerVisible} // 修改这里
+                onChange={() => setColorPickerVisible(!colorPickerVisible)} // 点击开关显示/隐藏颜色选择器
+                color="secondary"
+              ></Switch>
+
+              {/* 字体颜色选择器 */}
+              {colorPickerVisible && (
+                <div style={{
+                  position: 'absolute',
+                  left: '120%', // 右侧显示
+                  top: -270,
+                  zIndex: 10,
+                }}>
+                  <SketchPicker
+                    color={fontColor}
+                    onChangeComplete={handleFontColorChange}
+                  />
+                </div>
+              )}
+            </div>
+
+            {/* 描边颜色调整 */}
+            <div style={{ position: 'relative' }}>
+              <label>
+                <nobr>描边颜色调整: </nobr>
+              </label>
+              <Switch
+                checked={strokeColorPickerVisible} 
+                onChange={() => setStrokeColorPickerVisible(!strokeColorPickerVisible)} // 点击开关显示/隐藏颜色选择器
+                color="secondary"
+              ></Switch>
+
+              {/* 描边颜色选择器 */}
+              {strokeColorPickerVisible && (
+                <div style={{
+                  position: 'absolute',
+                  left: '120%', // 右侧显示
+                  top: 0,
+                  zIndex: 10,
+                }}>
+                  <SketchPicker
+                    color={strokeColor}
+                    onChangeComplete={handleStrokeColorChange}
+                  />
+                </div>
+              )}
             </div>
           </div>
           <div className="text">

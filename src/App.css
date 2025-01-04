@@ -7,14 +7,6 @@
   text-align: center;
 }
 
-.container {
-  padding: 2rem;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-
 .canvas {
   height: 256px;
   width: 296px;
