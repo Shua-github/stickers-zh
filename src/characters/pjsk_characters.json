@@ -3,7 +3,7 @@
         "name": "Airi 01",
         "character": "airi",
         "img": "pjsk/airi/Airi_01.png",
-        "color": "#FB8AAC",
+        "fillColor": "#FB8AAC",
         "defaultText": {
             "text": "keep up",
             "x": 148,
@@ -16,7 +16,7 @@
         "name": "Airi 02",
         "character": "airi",
         "img": "pjsk/airi/Airi_02.png",
-        "color": "#FB8AAC",
+        "fillColor": "#FB8AAC",
         "defaultText": {
             "text": "nice to meet ya",
             "x": 148,
@@ -29,7 +29,7 @@
         "name": "Airi 03",
         "character": "airi",
         "img": "pjsk/airi/Airi_03.png",
-        "color": "#FB8AAC",
+        "fillColor": "#FB8AAC",
         "defaultText": {
             "text": "keep at it!",
             "x": 140,
@@ -42,7 +42,7 @@
         "name": "Airi 04",
         "character": "airi",
         "img": "pjsk/airi/Airi_04.png",
-        "color": "#FB8AAC",
+        "fillColor": "#FB8AAC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -55,7 +55,7 @@
         "name": "Airi 06",
         "character": "airi",
         "img": "pjsk/airi/Airi_06.png",
-        "color": "#FB8AAC",
+        "fillColor": "#FB8AAC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -68,7 +68,7 @@
         "name": "Airi 07",
         "character": "airi",
         "img": "pjsk/airi/Airi_07.png",
-        "color": "#FB8AAC",
+        "fillColor": "#FB8AAC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -81,7 +81,7 @@
         "name": "Airi 08",
         "character": "airi",
         "img": "pjsk/airi/Airi_08.png",
-        "color": "#FB8AAC",
+        "fillColor": "#FB8AAC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -94,7 +94,7 @@
         "name": "Airi 09",
         "character": "airi",
         "img": "pjsk/airi/Airi_09.png",
-        "color": "#FB8AAC",
+        "fillColor": "#FB8AAC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -107,7 +107,7 @@
         "name": "Airi 11",
         "character": "airi",
         "img": "pjsk/airi/Airi_11.png",
-        "color": "#FB8AAC",
+        "fillColor": "#FB8AAC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -120,7 +120,7 @@
         "name": "Airi 12",
         "character": "airi",
         "img": "pjsk/airi/Airi_12.png",
-        "color": "#FB8AAC",
+        "fillColor": "#FB8AAC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -133,7 +133,7 @@
         "name": "Airi 13",
         "character": "airi",
         "img": "pjsk/airi/Airi_13.png",
-        "color": "#FB8AAC",
+        "fillColor": "#FB8AAC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -146,7 +146,7 @@
         "name": "Airi 14",
         "character": "airi",
         "img": "pjsk/airi/Airi_14.png",
-        "color": "#FB8AAC",
+        "fillColor": "#FB8AAC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -159,7 +159,7 @@
         "name": "Airi 16",
         "character": "airi",
         "img": "pjsk/airi/Airi_16.png",
-        "color": "#FB8AAC",
+        "fillColor": "#FB8AAC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -172,7 +172,7 @@
         "name": "Akito 01",
         "character": "akito",
         "img": "pjsk/akito/Akito_01.png",
-        "color": "#FF7722",
+        "fillColor": "#FF7722",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -185,7 +185,7 @@
         "name": "Akito 02",
         "character": "akito",
         "img": "pjsk/akito/Akito_02.png",
-        "color": "#FF7722",
+        "fillColor": "#FF7722",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -198,7 +198,7 @@
         "name": "Akito 03",
         "character": "akito",
         "img": "pjsk/akito/Akito_03.png",
-        "color": "#FF7722",
+        "fillColor": "#FF7722",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -211,7 +211,7 @@
         "name": "Akito 04",
         "character": "akito",
         "img": "pjsk/akito/Akito_04.png",
-        "color": "#FF7722",
+        "fillColor": "#FF7722",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -224,7 +224,7 @@
         "name": "Akito 06",
         "character": "akito",
         "img": "pjsk/akito/Akito_06.png",
-        "color": "#FF7722",
+        "fillColor": "#FF7722",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -237,7 +237,7 @@
         "name": "Akito 07",
         "character": "akito",
         "img": "pjsk/akito/Akito_07.png",
-        "color": "#FF7722",
+        "fillColor": "#FF7722",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -250,7 +250,7 @@
         "name": "Akito 08",
         "character": "akito",
         "img": "pjsk/akito/Akito_08.png",
-        "color": "#FF7722",
+        "fillColor": "#FF7722",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -263,7 +263,7 @@
         "name": "Akito 09",
         "character": "akito",
         "img": "pjsk/akito/Akito_09.png",
-        "color": "#FF7722",
+        "fillColor": "#FF7722",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -276,7 +276,7 @@
         "name": "Akito 11",
         "character": "akito",
         "img": "pjsk/akito/Akito_11.png",
-        "color": "#FF7722",
+        "fillColor": "#FF7722",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -289,7 +289,7 @@
         "name": "Akito 12",
         "character": "akito",
         "img": "pjsk/akito/Akito_12.png",
-        "color": "#FF7722",
+        "fillColor": "#FF7722",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -302,7 +302,7 @@
         "name": "Akito 13",
         "character": "akito",
         "img": "pjsk/akito/Akito_13.png",
-        "color": "#FF7722",
+        "fillColor": "#FF7722",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -315,7 +315,7 @@
         "name": "Akito 14",
         "character": "akito",
         "img": "pjsk/akito/Akito_14.png",
-        "color": "#FF7722",
+        "fillColor": "#FF7722",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -328,7 +328,7 @@
         "name": "Akito 16",
         "character": "akito",
         "img": "pjsk/akito/Akito_16.png",
-        "color": "#FF7722",
+        "fillColor": "#FF7722",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -341,7 +341,7 @@
         "name": "An 01",
         "character": "an",
         "img": "pjsk/an/An_01.png",
-        "color": "#00BADC",
+        "fillColor": "#00BADC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -354,7 +354,7 @@
         "name": "An 02",
         "character": "an",
         "img": "pjsk/an/An_02.png",
-        "color": "#00BADC",
+        "fillColor": "#00BADC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -367,7 +367,7 @@
         "name": "An 03",
         "character": "an",
         "img": "pjsk/an/An_03.png",
-        "color": "#00BADC",
+        "fillColor": "#00BADC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -380,7 +380,7 @@
         "name": "An 04",
         "character": "an",
         "img": "pjsk/an/An_04.png",
-        "color": "#00BADC",
+        "fillColor": "#00BADC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -393,7 +393,7 @@
         "name": "An 06",
         "character": "an",
         "img": "pjsk/an/An_06.png",
-        "color": "#00BADC",
+        "fillColor": "#00BADC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -406,7 +406,7 @@
         "name": "An 07",
         "character": "an",
         "img": "pjsk/an/An_07.png",
-        "color": "#00BADC",
+        "fillColor": "#00BADC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -419,7 +419,7 @@
         "name": "An 08",
         "character": "an",
         "img": "pjsk/an/An_08.png",
-        "color": "#00BADC",
+        "fillColor": "#00BADC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -432,7 +432,7 @@
         "name": "An 09",
         "character": "an",
         "img": "pjsk/an/An_09.png",
-        "color": "#00BADC",
+        "fillColor": "#00BADC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -445,7 +445,7 @@
         "name": "An 11",
         "character": "an",
         "img": "pjsk/an/An_11.png",
-        "color": "#00BADC",
+        "fillColor": "#00BADC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -458,7 +458,7 @@
         "name": "An 12",
         "character": "an",
         "img": "pjsk/an/An_12.png",
-        "color": "#00BADC",
+        "fillColor": "#00BADC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -471,7 +471,7 @@
         "name": "An 13",
         "character": "an",
         "img": "pjsk/an/An_13.png",
-        "color": "#00BADC",
+        "fillColor": "#00BADC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -484,7 +484,7 @@
         "name": "An 14",
         "character": "an",
         "img": "pjsk/an/An_14.png",
-        "color": "#00BADC",
+        "fillColor": "#00BADC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -497,7 +497,7 @@
         "name": "An 16",
         "character": "an",
         "img": "pjsk/an/An_16.png",
-        "color": "#00BADC",
+        "fillColor": "#00BADC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -510,7 +510,7 @@
         "name": "Emu 01",
         "character": "emu",
         "img": "pjsk/emu/Emu_01.png",
-        "color": "#FF66BB",
+        "fillColor": "#FF66BB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -523,7 +523,7 @@
         "name": "Emu 02",
         "character": "emu",
         "img": "pjsk/emu/Emu_02.png",
-        "color": "#FF66BB",
+        "fillColor": "#FF66BB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -536,7 +536,7 @@
         "name": "Emu 03",
         "character": "emu",
         "img": "pjsk/emu/Emu_03.png",
-        "color": "#FF66BB",
+        "fillColor": "#FF66BB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -549,7 +549,7 @@
         "name": "Emu 04",
         "character": "emu",
         "img": "pjsk/emu/Emu_04.png",
-        "color": "#FF66BB",
+        "fillColor": "#FF66BB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -562,7 +562,7 @@
         "name": "Emu 06",
         "character": "emu",
         "img": "pjsk/emu/Emu_06.png",
-        "color": "#FF66BB",
+        "fillColor": "#FF66BB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -575,7 +575,7 @@
         "name": "Emu 07",
         "character": "emu",
         "img": "pjsk/emu/Emu_07.png",
-        "color": "#FF66BB",
+        "fillColor": "#FF66BB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -588,7 +588,7 @@
         "name": "Emu 08",
         "character": "emu",
         "img": "pjsk/emu/Emu_08.png",
-        "color": "#FF66BB",
+        "fillColor": "#FF66BB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -601,7 +601,7 @@
         "name": "Emu 09",
         "character": "emu",
         "img": "pjsk/emu/Emu_09.png",
-        "color": "#FF66BB",
+        "fillColor": "#FF66BB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -614,7 +614,7 @@
         "name": "Emu 11",
         "character": "emu",
         "img": "pjsk/emu/Emu_11.png",
-        "color": "#FF66BB",
+        "fillColor": "#FF66BB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -627,7 +627,7 @@
         "name": "Emu 12",
         "character": "emu",
         "img": "pjsk/emu/Emu_12.png",
-        "color": "#FF66BB",
+        "fillColor": "#FF66BB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -640,7 +640,7 @@
         "name": "Emu 13",
         "character": "emu",
         "img": "pjsk/emu/Emu_13.png",
-        "color": "#FF66BB",
+        "fillColor": "#FF66BB",
         "defaultText": {
             "text": "Wonderhoy!",
             "x": 148,
@@ -653,7 +653,7 @@
         "name": "Emu 14",
         "character": "emu",
         "img": "pjsk/emu/Emu_14.png",
-        "color": "#FF66BB",
+        "fillColor": "#FF66BB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -666,7 +666,7 @@
         "name": "Emu 16",
         "character": "emu",
         "img": "pjsk/emu/Emu_16.png",
-        "color": "#FF66BB",
+        "fillColor": "#FF66BB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -679,7 +679,7 @@
         "name": "Ena 01",
         "character": "ena",
         "img": "pjsk/ena/Ena_01.png",
-        "color": "#B18F6C",
+        "fillColor": "#B18F6C",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -692,7 +692,7 @@
         "name": "Ena 02",
         "character": "ena",
         "img": "pjsk/ena/Ena_02.png",
-        "color": "#B18F6C",
+        "fillColor": "#B18F6C",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -705,7 +705,7 @@
         "name": "Ena 03",
         "character": "ena",
         "img": "pjsk/ena/Ena_03.png",
-        "color": "#B18F6C",
+        "fillColor": "#B18F6C",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -718,7 +718,7 @@
         "name": "Ena 04",
         "character": "ena",
         "img": "pjsk/ena/Ena_04.png",
-        "color": "#B18F6C",
+        "fillColor": "#B18F6C",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -731,7 +731,7 @@
         "name": "Ena 06",
         "character": "ena",
         "img": "pjsk/ena/Ena_06.png",
-        "color": "#B18F6C",
+        "fillColor": "#B18F6C",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -744,7 +744,7 @@
         "name": "Ena 07",
         "character": "ena",
         "img": "pjsk/ena/Ena_07.png",
-        "color": "#B18F6C",
+        "fillColor": "#B18F6C",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -757,7 +757,7 @@
         "name": "Ena 08",
         "character": "ena",
         "img": "pjsk/ena/Ena_08.png",
-        "color": "#B18F6C",
+        "fillColor": "#B18F6C",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -770,7 +770,7 @@
         "name": "Ena 09",
         "character": "ena",
         "img": "pjsk/ena/Ena_09.png",
-        "color": "#B18F6C",
+        "fillColor": "#B18F6C",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -783,7 +783,7 @@
         "name": "Ena 11",
         "character": "ena",
         "img": "pjsk/ena/Ena_11.png",
-        "color": "#B18F6C",
+        "fillColor": "#B18F6C",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -796,7 +796,7 @@
         "name": "Ena 12",
         "character": "ena",
         "img": "pjsk/ena/Ena_12.png",
-        "color": "#B18F6C",
+        "fillColor": "#B18F6C",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -809,7 +809,7 @@
         "name": "Ena 13",
         "character": "ena",
         "img": "pjsk/ena/Ena_13.png",
-        "color": "#B18F6C",
+        "fillColor": "#B18F6C",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -822,7 +822,7 @@
         "name": "Ena 14",
         "character": "ena",
         "img": "pjsk/ena/Ena_14.png",
-        "color": "#B18F6C",
+        "fillColor": "#B18F6C",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -835,7 +835,7 @@
         "name": "Ena 16",
         "character": "ena",
         "img": "pjsk/ena/Ena_16.png",
-        "color": "#B18F6C",
+        "fillColor": "#B18F6C",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -848,7 +848,7 @@
         "name": "Haruka 01",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_01.png",
-        "color": "#6495F0",
+        "fillColor": "#6495F0",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -861,7 +861,7 @@
         "name": "Haruka 02",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_02.png",
-        "color": "#6495F0",
+        "fillColor": "#6495F0",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -874,7 +874,7 @@
         "name": "Haruka 03",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_03.png",
-        "color": "#6495F0",
+        "fillColor": "#6495F0",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -887,7 +887,7 @@
         "name": "Haruka 04",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_04.png",
-        "color": "#6495F0",
+        "fillColor": "#6495F0",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -900,7 +900,7 @@
         "name": "Haruka 06",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_06.png",
-        "color": "#6495F0",
+        "fillColor": "#6495F0",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -913,7 +913,7 @@
         "name": "Haruka 07",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_07.png",
-        "color": "#6495F0",
+        "fillColor": "#6495F0",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -926,7 +926,7 @@
         "name": "Haruka 08",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_08.png",
-        "color": "#6495F0",
+        "fillColor": "#6495F0",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -939,7 +939,7 @@
         "name": "Haruka 09",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_09.png",
-        "color": "#6495F0",
+        "fillColor": "#6495F0",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -952,7 +952,7 @@
         "name": "Haruka 11",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_11.png",
-        "color": "#6495F0",
+        "fillColor": "#6495F0",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -965,7 +965,7 @@
         "name": "Haruka 12",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_12.png",
-        "color": "#6495F0",
+        "fillColor": "#6495F0",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -978,7 +978,7 @@
         "name": "Haruka 13",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_13.png",
-        "color": "#6495F0",
+        "fillColor": "#6495F0",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -991,7 +991,7 @@
         "name": "Haruka 14",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_14.png",
-        "color": "#6495F0",
+        "fillColor": "#6495F0",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1004,7 +1004,7 @@
         "name": "Haruka 16",
         "character": "Haruka",
         "img": "pjsk/Haruka/Haruka_16.png",
-        "color": "#6495F0",
+        "fillColor": "#6495F0",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1017,7 +1017,7 @@
         "name": "Honami 01",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_01.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1030,7 +1030,7 @@
         "name": "Honami 02",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_02.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1043,7 +1043,7 @@
         "name": "Honami 03",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_03.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1056,7 +1056,7 @@
         "name": "Honami 04",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_04.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1069,7 +1069,7 @@
         "name": "Honami 06",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_06.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1082,7 +1082,7 @@
         "name": "Honami 07",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_07.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1095,7 +1095,7 @@
         "name": "Honami 08",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_08.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1108,7 +1108,7 @@
         "name": "Honami 09",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_09.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1121,7 +1121,7 @@
         "name": "Honami 11",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_11.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1134,7 +1134,7 @@
         "name": "Honami 12",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_12.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1147,7 +1147,7 @@
         "name": "Honami 13",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_13.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1160,7 +1160,7 @@
         "name": "Honami 14",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_14.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1173,7 +1173,7 @@
         "name": "Honami 16",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_16.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1186,7 +1186,7 @@
         "name": "Honami 17",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_17.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1199,7 +1199,7 @@
         "name": "Honami 18",
         "character": "Honami",
         "img": "pjsk/Honami/Honami_18.png",
-        "color": "#F86666",
+        "fillColor": "#F86666",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1212,7 +1212,7 @@
         "name": "Ichika 01",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_01.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1225,7 +1225,7 @@
         "name": "Ichika 02",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_02.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1238,7 +1238,7 @@
         "name": "Ichika 03",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_03.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1251,7 +1251,7 @@
         "name": "Ichika 04",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_04.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1264,7 +1264,7 @@
         "name": "Ichika 06",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_06.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1277,7 +1277,7 @@
         "name": "Ichika 07",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_07.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1290,7 +1290,7 @@
         "name": "Ichika 08",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_08.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1303,7 +1303,7 @@
         "name": "Ichika 09",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_09.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1316,7 +1316,7 @@
         "name": "Ichika 11",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_11.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1329,7 +1329,7 @@
         "name": "Ichika 12",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_12.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1342,7 +1342,7 @@
         "name": "Ichika 13",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_13.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1355,7 +1355,7 @@
         "name": "Ichika 14",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_14.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1368,7 +1368,7 @@
         "name": "Ichika 16",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_16.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1381,7 +1381,7 @@
         "name": "Ichika 17",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_17.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1394,7 +1394,7 @@
         "name": "Ichika 18",
         "character": "Ichika",
         "img": "pjsk/Ichika/Ichika_18.png",
-        "color": "#33AAEE",
+        "fillColor": "#33AAEE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1407,7 +1407,7 @@
         "name": "KAITO 01",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_01.png",
-        "color": "#3366CC",
+        "fillColor": "#3366CC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1420,7 +1420,7 @@
         "name": "KAITO 02",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_02.png",
-        "color": "#3366CC",
+        "fillColor": "#3366CC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1433,7 +1433,7 @@
         "name": "KAITO 03",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_03.png",
-        "color": "#3366CC",
+        "fillColor": "#3366CC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1446,7 +1446,7 @@
         "name": "KAITO 04",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_04.png",
-        "color": "#3366CC",
+        "fillColor": "#3366CC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1459,7 +1459,7 @@
         "name": "KAITO 06",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_06.png",
-        "color": "#3366CC",
+        "fillColor": "#3366CC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1472,7 +1472,7 @@
         "name": "KAITO 07",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_07.png",
-        "color": "#3366CC",
+        "fillColor": "#3366CC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1485,7 +1485,7 @@
         "name": "KAITO 08",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_08.png",
-        "color": "#3366CC",
+        "fillColor": "#3366CC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1498,7 +1498,7 @@
         "name": "KAITO 09",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_09.png",
-        "color": "#3366CC",
+        "fillColor": "#3366CC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1511,7 +1511,7 @@
         "name": "KAITO 11",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_11.png",
-        "color": "#3366CC",
+        "fillColor": "#3366CC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1524,7 +1524,7 @@
         "name": "KAITO 12",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_12.png",
-        "color": "#3366CC",
+        "fillColor": "#3366CC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1537,7 +1537,7 @@
         "name": "KAITO 13",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_13.png",
-        "color": "#3366CC",
+        "fillColor": "#3366CC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1550,7 +1550,7 @@
         "name": "KAITO 14",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_14.png",
-        "color": "#3366CC",
+        "fillColor": "#3366CC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1563,7 +1563,7 @@
         "name": "KAITO 16",
         "character": "KAITO",
         "img": "pjsk/KAITO/KAITO_16.png",
-        "color": "#3366CC",
+        "fillColor": "#3366CC",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1576,7 +1576,7 @@
         "name": "Kanade 01",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_01.png",
-        "color": "#BB6688",
+        "fillColor": "#BB6688",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1589,7 +1589,7 @@
         "name": "Kanade 02",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_02.png",
-        "color": "#BB6688",
+        "fillColor": "#BB6688",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1602,7 +1602,7 @@
         "name": "Kanade 03",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_03.png",
-        "color": "#BB6688",
+        "fillColor": "#BB6688",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1615,7 +1615,7 @@
         "name": "Kanade 04",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_04.png",
-        "color": "#BB6688",
+        "fillColor": "#BB6688",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1628,7 +1628,7 @@
         "name": "Kanade 06",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_06.png",
-        "color": "#BB6688",
+        "fillColor": "#BB6688",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1641,7 +1641,7 @@
         "name": "Kanade 07",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_07.png",
-        "color": "#BB6688",
+        "fillColor": "#BB6688",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1654,7 +1654,7 @@
         "name": "Kanade 08",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_08.png",
-        "color": "#BB6688",
+        "fillColor": "#BB6688",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1667,7 +1667,7 @@
         "name": "Kanade 09",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_09.png",
-        "color": "#BB6688",
+        "fillColor": "#BB6688",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1680,7 +1680,7 @@
         "name": "Kanade 11",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_11.png",
-        "color": "#BB6688",
+        "fillColor": "#BB6688",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1693,7 +1693,7 @@
         "name": "Kanade 12",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_12.png",
-        "color": "#BB6688",
+        "fillColor": "#BB6688",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1706,7 +1706,7 @@
         "name": "Kanade 13",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_13.png",
-        "color": "#BB6688",
+        "fillColor": "#BB6688",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1719,7 +1719,7 @@
         "name": "Kanade 14",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_14.png",
-        "color": "#BB6688",
+        "fillColor": "#BB6688",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1732,7 +1732,7 @@
         "name": "Kanade 16",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_16.png",
-        "color": "#BB6688",
+        "fillColor": "#BB6688",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1745,7 +1745,7 @@
         "name": "Kanade 17",
         "character": "Kanade",
         "img": "pjsk/Kanade/Kanade_17.png",
-        "color": "#BB6688",
+        "fillColor": "#BB6688",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1758,7 +1758,7 @@
         "name": "Kohane 01",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_01.png",
-        "color": "#FF6699",
+        "fillColor": "#FF6699",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1771,7 +1771,7 @@
         "name": "Kohane 02",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_02.png",
-        "color": "#FF6699",
+        "fillColor": "#FF6699",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1784,7 +1784,7 @@
         "name": "Kohane 03",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_03.png",
-        "color": "#FF6699",
+        "fillColor": "#FF6699",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1797,7 +1797,7 @@
         "name": "Kohane 04",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_04.png",
-        "color": "#FF6699",
+        "fillColor": "#FF6699",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1810,7 +1810,7 @@
         "name": "Kohane 06",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_06.png",
-        "color": "#FF6699",
+        "fillColor": "#FF6699",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1823,7 +1823,7 @@
         "name": "Kohane 07",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_07.png",
-        "color": "#FF6699",
+        "fillColor": "#FF6699",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1836,7 +1836,7 @@
         "name": "Kohane 08",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_08.png",
-        "color": "#FF6699",
+        "fillColor": "#FF6699",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1849,7 +1849,7 @@
         "name": "Kohane 09",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_09.png",
-        "color": "#FF6699",
+        "fillColor": "#FF6699",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1862,7 +1862,7 @@
         "name": "Kohane 11",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_11.png",
-        "color": "#FF6699",
+        "fillColor": "#FF6699",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1875,7 +1875,7 @@
         "name": "Kohane 12",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_12.png",
-        "color": "#FF6699",
+        "fillColor": "#FF6699",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1888,7 +1888,7 @@
         "name": "Kohane 13",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_13.png",
-        "color": "#FF6699",
+        "fillColor": "#FF6699",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1901,7 +1901,7 @@
         "name": "Kohane 14",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_14.png",
-        "color": "#FF6699",
+        "fillColor": "#FF6699",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1914,7 +1914,7 @@
         "name": "Kohane 16",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_16.png",
-        "color": "#FF6699",
+        "fillColor": "#FF6699",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1927,7 +1927,7 @@
         "name": "Kohane 17",
         "character": "Kohane",
         "img": "pjsk/Kohane/Kohane_17.png",
-        "color": "#FF6699",
+        "fillColor": "#FF6699",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1940,7 +1940,7 @@
         "name": "Len 01",
         "character": "Len",
         "img": "pjsk/Len/Len_01.png",
-        "color": "#D3BD00",
+        "fillColor": "#D3BD00",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1953,7 +1953,7 @@
         "name": "Len 02",
         "character": "Len",
         "img": "pjsk/Len/Len_02.png",
-        "color": "#D3BD00",
+        "fillColor": "#D3BD00",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1966,7 +1966,7 @@
         "name": "Len 03",
         "character": "Len",
         "img": "pjsk/Len/Len_03.png",
-        "color": "#D3BD00",
+        "fillColor": "#D3BD00",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1979,7 +1979,7 @@
         "name": "Len 04",
         "character": "Len",
         "img": "pjsk/Len/Len_04.png",
-        "color": "#D3BD00",
+        "fillColor": "#D3BD00",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -1992,7 +1992,7 @@
         "name": "Len 06",
         "character": "Len",
         "img": "pjsk/Len/Len_06.png",
-        "color": "#D3BD00",
+        "fillColor": "#D3BD00",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2005,7 +2005,7 @@
         "name": "Len 07",
         "character": "Len",
         "img": "pjsk/Len/Len_07.png",
-        "color": "#D3BD00",
+        "fillColor": "#D3BD00",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2018,7 +2018,7 @@
         "name": "Len 08",
         "character": "Len",
         "img": "pjsk/Len/Len_08.png",
-        "color": "#D3BD00",
+        "fillColor": "#D3BD00",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2031,7 +2031,7 @@
         "name": "Len 09",
         "character": "Len",
         "img": "pjsk/Len/Len_09.png",
-        "color": "#D3BD00",
+        "fillColor": "#D3BD00",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2044,7 +2044,7 @@
         "name": "Len 11",
         "character": "Len",
         "img": "pjsk/Len/Len_11.png",
-        "color": "#D3BD00",
+        "fillColor": "#D3BD00",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2057,7 +2057,7 @@
         "name": "Len 12",
         "character": "Len",
         "img": "pjsk/Len/Len_12.png",
-        "color": "#D3BD00",
+        "fillColor": "#D3BD00",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2070,7 +2070,7 @@
         "name": "Len 13",
         "character": "Len",
         "img": "pjsk/Len/Len_13.png",
-        "color": "#D3BD00",
+        "fillColor": "#D3BD00",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2083,7 +2083,7 @@
         "name": "Len 14",
         "character": "Len",
         "img": "pjsk/Len/Len_14.png",
-        "color": "#D3BD00",
+        "fillColor": "#D3BD00",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2096,7 +2096,7 @@
         "name": "Len 16",
         "character": "Len",
         "img": "pjsk/Len/Len_16.png",
-        "color": "#D3BD00",
+        "fillColor": "#D3BD00",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2109,7 +2109,7 @@
         "name": "Len 17",
         "character": "Len",
         "img": "pjsk/Len/Len_17.png",
-        "color": "#D3BD00",
+        "fillColor": "#D3BD00",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2122,7 +2122,7 @@
         "name": "Luka 01",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_01.png",
-        "color": "#F88CA7",
+        "fillColor": "#F88CA7",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2135,7 +2135,7 @@
         "name": "Luka 02",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_02.png",
-        "color": "#F88CA7",
+        "fillColor": "#F88CA7",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2148,7 +2148,7 @@
         "name": "Luka 03",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_03.png",
-        "color": "#F88CA7",
+        "fillColor": "#F88CA7",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2161,7 +2161,7 @@
         "name": "Luka 04",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_04.png",
-        "color": "#F88CA7",
+        "fillColor": "#F88CA7",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2174,7 +2174,7 @@
         "name": "Luka 06",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_06.png",
-        "color": "#F88CA7",
+        "fillColor": "#F88CA7",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2187,7 +2187,7 @@
         "name": "Luka 07",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_07.png",
-        "color": "#F88CA7",
+        "fillColor": "#F88CA7",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2200,7 +2200,7 @@
         "name": "Luka 08",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_08.png",
-        "color": "#F88CA7",
+        "fillColor": "#F88CA7",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2213,7 +2213,7 @@
         "name": "Luka 09",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_09.png",
-        "color": "#F88CA7",
+        "fillColor": "#F88CA7",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2226,7 +2226,7 @@
         "name": "Luka 11",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_11.png",
-        "color": "#F88CA7",
+        "fillColor": "#F88CA7",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2239,7 +2239,7 @@
         "name": "Luka 12",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_12.png",
-        "color": "#F88CA7",
+        "fillColor": "#F88CA7",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2252,7 +2252,7 @@
         "name": "Luka 13",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_13.png",
-        "color": "#F88CA7",
+        "fillColor": "#F88CA7",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2265,7 +2265,7 @@
         "name": "Luka 14",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_14.png",
-        "color": "#F88CA7",
+        "fillColor": "#F88CA7",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2278,7 +2278,7 @@
         "name": "Luka 16",
         "character": "Luka",
         "img": "pjsk/Luka/Luka_16.png",
-        "color": "#F88CA7",
+        "fillColor": "#F88CA7",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2291,7 +2291,7 @@
         "name": "Mafuyu 01",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_01.png",
-        "color": "#7171AF",
+        "fillColor": "#7171AF",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2304,7 +2304,7 @@
         "name": "Mafuyu 02",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_02.png",
-        "color": "#7171AF",
+        "fillColor": "#7171AF",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2317,7 +2317,7 @@
         "name": "Mafuyu 03",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_03.png",
-        "color": "#7171AF",
+        "fillColor": "#7171AF",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2330,7 +2330,7 @@
         "name": "Mafuyu 04",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_04.png",
-        "color": "#7171AF",
+        "fillColor": "#7171AF",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2343,7 +2343,7 @@
         "name": "Mafuyu 06",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_06.png",
-        "color": "#7171AF",
+        "fillColor": "#7171AF",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2356,7 +2356,7 @@
         "name": "Mafuyu 07",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_07.png",
-        "color": "#7171AF",
+        "fillColor": "#7171AF",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2369,7 +2369,7 @@
         "name": "Mafuyu 08",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_08.png",
-        "color": "#7171AF",
+        "fillColor": "#7171AF",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2382,7 +2382,7 @@
         "name": "Mafuyu 09",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_09.png",
-        "color": "#7171AF",
+        "fillColor": "#7171AF",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2395,7 +2395,7 @@
         "name": "Mafuyu 11",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_11.png",
-        "color": "#7171AF",
+        "fillColor": "#7171AF",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2408,7 +2408,7 @@
         "name": "Mafuyu 12",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_12.png",
-        "color": "#7171AF",
+        "fillColor": "#7171AF",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2421,7 +2421,7 @@
         "name": "Mafuyu 13",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_13.png",
-        "color": "#7171AF",
+        "fillColor": "#7171AF",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2434,7 +2434,7 @@
         "name": "Mafuyu 14",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_14.png",
-        "color": "#7171AF",
+        "fillColor": "#7171AF",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2447,7 +2447,7 @@
         "name": "Mafuyu 16",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_16.png",
-        "color": "#7171AF",
+        "fillColor": "#7171AF",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2460,7 +2460,7 @@
         "name": "Mafuyu 17",
         "character": "Mafuyu",
         "img": "pjsk/Mafuyu/Mafuyu_17.png",
-        "color": "#7171AF",
+        "fillColor": "#7171AF",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2473,7 +2473,7 @@
         "name": "Meiko 01",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_01.png",
-        "color": "#E4485F",
+        "fillColor": "#E4485F",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2486,7 +2486,7 @@
         "name": "Meiko 02",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_02.png",
-        "color": "#E4485F",
+        "fillColor": "#E4485F",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2499,7 +2499,7 @@
         "name": "Meiko 03",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_03.png",
-        "color": "#E4485F",
+        "fillColor": "#E4485F",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2512,7 +2512,7 @@
         "name": "Meiko 04",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_04.png",
-        "color": "#E4485F",
+        "fillColor": "#E4485F",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2525,7 +2525,7 @@
         "name": "Meiko 06",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_06.png",
-        "color": "#E4485F",
+        "fillColor": "#E4485F",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2538,7 +2538,7 @@
         "name": "Meiko 07",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_07.png",
-        "color": "#E4485F",
+        "fillColor": "#E4485F",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2551,7 +2551,7 @@
         "name": "Meiko 08",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_08.png",
-        "color": "#E4485F",
+        "fillColor": "#E4485F",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2564,7 +2564,7 @@
         "name": "Meiko 09",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_09.png",
-        "color": "#E4485F",
+        "fillColor": "#E4485F",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2577,7 +2577,7 @@
         "name": "Meiko 11",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_11.png",
-        "color": "#E4485F",
+        "fillColor": "#E4485F",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2590,7 +2590,7 @@
         "name": "Meiko 12",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_12.png",
-        "color": "#E4485F",
+        "fillColor": "#E4485F",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2603,7 +2603,7 @@
         "name": "Meiko 13",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_13.png",
-        "color": "#E4485F",
+        "fillColor": "#E4485F",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2616,7 +2616,7 @@
         "name": "Meiko 14",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_14.png",
-        "color": "#E4485F",
+        "fillColor": "#E4485F",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2629,7 +2629,7 @@
         "name": "Meiko 16",
         "character": "Meiko",
         "img": "pjsk/Meiko/Meiko_16.png",
-        "color": "#E4485F",
+        "fillColor": "#E4485F",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2642,7 +2642,7 @@
         "name": "Miku 01",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_01.png",
-        "color": "#33CCBB",
+        "fillColor": "#33CCBB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2655,7 +2655,7 @@
         "name": "Miku 02",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_02.png",
-        "color": "#33CCBB",
+        "fillColor": "#33CCBB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2668,7 +2668,7 @@
         "name": "Miku 03",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_03.png",
-        "color": "#33CCBB",
+        "fillColor": "#33CCBB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2681,7 +2681,7 @@
         "name": "Miku 04",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_04.png",
-        "color": "#33CCBB",
+        "fillColor": "#33CCBB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2694,7 +2694,7 @@
         "name": "Miku 06",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_06.png",
-        "color": "#33CCBB",
+        "fillColor": "#33CCBB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2707,7 +2707,7 @@
         "name": "Miku 07",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_07.png",
-        "color": "#33CCBB",
+        "fillColor": "#33CCBB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2720,7 +2720,7 @@
         "name": "Miku 08",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_08.png",
-        "color": "#33CCBB",
+        "fillColor": "#33CCBB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2733,7 +2733,7 @@
         "name": "Miku 09",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_09.png",
-        "color": "#33CCBB",
+        "fillColor": "#33CCBB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2746,7 +2746,7 @@
         "name": "Miku 11",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_11.png",
-        "color": "#33CCBB",
+        "fillColor": "#33CCBB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2759,7 +2759,7 @@
         "name": "Miku 12",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_12.png",
-        "color": "#33CCBB",
+        "fillColor": "#33CCBB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2772,7 +2772,7 @@
         "name": "Miku 13",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_13.png",
-        "color": "#33CCBB",
+        "fillColor": "#33CCBB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2785,7 +2785,7 @@
         "name": "Miku 14",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_14.png",
-        "color": "#33CCBB",
+        "fillColor": "#33CCBB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2798,7 +2798,7 @@
         "name": "Miku 16",
         "character": "Miku",
         "img": "pjsk/Miku/Miku_16.png",
-        "color": "#33CCBB",
+        "fillColor": "#33CCBB",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2811,7 +2811,7 @@
         "name": "Minori 01",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_01.png",
-        "color": "#F39E7D",
+        "fillColor": "#F39E7D",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2824,7 +2824,7 @@
         "name": "Minori 02",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_02.png",
-        "color": "#F39E7D",
+        "fillColor": "#F39E7D",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2837,7 +2837,7 @@
         "name": "Minori 03",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_03.png",
-        "color": "#F39E7D",
+        "fillColor": "#F39E7D",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2850,7 +2850,7 @@
         "name": "Minori 04",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_04.png",
-        "color": "#F39E7D",
+        "fillColor": "#F39E7D",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2863,7 +2863,7 @@
         "name": "Minori 06",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_06.png",
-        "color": "#F39E7D",
+        "fillColor": "#F39E7D",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2876,7 +2876,7 @@
         "name": "Minori 07",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_07.png",
-        "color": "#F39E7D",
+        "fillColor": "#F39E7D",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2889,7 +2889,7 @@
         "name": "Minori 08",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_08.png",
-        "color": "#F39E7D",
+        "fillColor": "#F39E7D",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2902,7 +2902,7 @@
         "name": "Minori 09",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_09.png",
-        "color": "#F39E7D",
+        "fillColor": "#F39E7D",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2915,7 +2915,7 @@
         "name": "Minori 11",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_11.png",
-        "color": "#F39E7D",
+        "fillColor": "#F39E7D",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2928,7 +2928,7 @@
         "name": "Minori 12",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_12.png",
-        "color": "#F39E7D",
+        "fillColor": "#F39E7D",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2941,7 +2941,7 @@
         "name": "Minori 13",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_13.png",
-        "color": "#F39E7D",
+        "fillColor": "#F39E7D",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2954,7 +2954,7 @@
         "name": "Minori 14",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_14.png",
-        "color": "#F39E7D",
+        "fillColor": "#F39E7D",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2967,7 +2967,7 @@
         "name": "Minori 16",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_16.png",
-        "color": "#F39E7D",
+        "fillColor": "#F39E7D",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2980,7 +2980,7 @@
         "name": "Minori 17",
         "character": "Minori",
         "img": "pjsk/Minori/Minori_17.png",
-        "color": "#F39E7D",
+        "fillColor": "#F39E7D",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -2993,7 +2993,7 @@
         "name": "Mizuki 01",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_01.png",
-        "color": "#CA8DB6",
+        "fillColor": "#CA8DB6",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3006,7 +3006,7 @@
         "name": "Mizuki 02",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_02.png",
-        "color": "#CA8DB6",
+        "fillColor": "#CA8DB6",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3019,7 +3019,7 @@
         "name": "Mizuki 03",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_03.png",
-        "color": "#CA8DB6",
+        "fillColor": "#CA8DB6",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3032,7 +3032,7 @@
         "name": "Mizuki 04",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_04.png",
-        "color": "#CA8DB6",
+        "fillColor": "#CA8DB6",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3045,7 +3045,7 @@
         "name": "Mizuki 06",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_06.png",
-        "color": "#CA8DB6",
+        "fillColor": "#CA8DB6",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3058,7 +3058,7 @@
         "name": "Mizuki 07",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_07.png",
-        "color": "#CA8DB6",
+        "fillColor": "#CA8DB6",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3071,7 +3071,7 @@
         "name": "Mizuki 08",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_08.png",
-        "color": "#CA8DB6",
+        "fillColor": "#CA8DB6",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3084,7 +3084,7 @@
         "name": "Mizuki 09",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_09.png",
-        "color": "#CA8DB6",
+        "fillColor": "#CA8DB6",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3097,7 +3097,7 @@
         "name": "Mizuki 11",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_11.png",
-        "color": "#CA8DB6",
+        "fillColor": "#CA8DB6",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3110,7 +3110,7 @@
         "name": "Mizuki 12",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_12.png",
-        "color": "#CA8DB6",
+        "fillColor": "#CA8DB6",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3123,7 +3123,7 @@
         "name": "Mizuki 13",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_13.png",
-        "color": "#CA8DB6",
+        "fillColor": "#CA8DB6",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3136,7 +3136,7 @@
         "name": "Mizuki 14",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_14.png",
-        "color": "#CA8DB6",
+        "fillColor": "#CA8DB6",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3149,7 +3149,7 @@
         "name": "Mizuki 16",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_16.png",
-        "color": "#CA8DB6",
+        "fillColor": "#CA8DB6",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3162,7 +3162,7 @@
         "name": "Mizuki 17",
         "character": "Mizuki",
         "img": "pjsk/Mizuki/Mizuki_17.png",
-        "color": "#CA8DB6",
+        "fillColor": "#CA8DB6",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3175,7 +3175,7 @@
         "name": "Nene 01",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_01.png",
-        "color": "#19CD94",
+        "fillColor": "#19CD94",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3188,7 +3188,7 @@
         "name": "Nene 02",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_02.png",
-        "color": "#19CD94",
+        "fillColor": "#19CD94",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3201,7 +3201,7 @@
         "name": "Nene 03",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_03.png",
-        "color": "#19CD94",
+        "fillColor": "#19CD94",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3214,7 +3214,7 @@
         "name": "Nene 04",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_04.png",
-        "color": "#19CD94",
+        "fillColor": "#19CD94",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3227,7 +3227,7 @@
         "name": "Nene 06",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_06.png",
-        "color": "#19CD94",
+        "fillColor": "#19CD94",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3240,7 +3240,7 @@
         "name": "Nene 07",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_07.png",
-        "color": "#19CD94",
+        "fillColor": "#19CD94",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3253,7 +3253,7 @@
         "name": "Nene 08",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_08.png",
-        "color": "#19CD94",
+        "fillColor": "#19CD94",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3266,7 +3266,7 @@
         "name": "Nene 09",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_09.png",
-        "color": "#19CD94",
+        "fillColor": "#19CD94",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3279,7 +3279,7 @@
         "name": "Nene 11",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_11.png",
-        "color": "#19CD94",
+        "fillColor": "#19CD94",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3292,7 +3292,7 @@
         "name": "Nene 12",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_12.png",
-        "color": "#19CD94",
+        "fillColor": "#19CD94",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3305,7 +3305,7 @@
         "name": "Nene 13",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_13.png",
-        "color": "#19CD94",
+        "fillColor": "#19CD94",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3318,7 +3318,7 @@
         "name": "Nene 14",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_14.png",
-        "color": "#19CD94",
+        "fillColor": "#19CD94",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3331,7 +3331,7 @@
         "name": "Nene 16",
         "character": "Nene",
         "img": "pjsk/Nene/Nene_16.png",
-        "color": "#19CD94",
+        "fillColor": "#19CD94",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3344,7 +3344,7 @@
         "name": "Rin 01",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_01.png",
-        "color": "#E8A505",
+        "fillColor": "#E8A505",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3357,7 +3357,7 @@
         "name": "Rin 02",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_02.png",
-        "color": "#E8A505",
+        "fillColor": "#E8A505",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3370,7 +3370,7 @@
         "name": "Rin 03",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_03.png",
-        "color": "#E8A505",
+        "fillColor": "#E8A505",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3383,7 +3383,7 @@
         "name": "Rin 04",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_04.png",
-        "color": "#E8A505",
+        "fillColor": "#E8A505",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3396,7 +3396,7 @@
         "name": "Rin 06",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_06.png",
-        "color": "#E8A505",
+        "fillColor": "#E8A505",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3409,7 +3409,7 @@
         "name": "Rin 07",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_07.png",
-        "color": "#E8A505",
+        "fillColor": "#E8A505",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3422,7 +3422,7 @@
         "name": "Rin 08",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_08.png",
-        "color": "#E8A505",
+        "fillColor": "#E8A505",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3435,7 +3435,7 @@
         "name": "Rin 09",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_09.png",
-        "color": "#E8A505",
+        "fillColor": "#E8A505",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3448,7 +3448,7 @@
         "name": "Rin 11",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_11.png",
-        "color": "#E8A505",
+        "fillColor": "#E8A505",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3461,7 +3461,7 @@
         "name": "Rin 12",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_12.png",
-        "color": "#E8A505",
+        "fillColor": "#E8A505",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3474,7 +3474,7 @@
         "name": "Rin 13",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_13.png",
-        "color": "#E8A505",
+        "fillColor": "#E8A505",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3487,7 +3487,7 @@
         "name": "Rin 14",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_14.png",
-        "color": "#E8A505",
+        "fillColor": "#E8A505",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3500,7 +3500,7 @@
         "name": "Rin 16",
         "character": "Rin",
         "img": "pjsk/Rin/Rin_16.png",
-        "color": "#E8A505",
+        "fillColor": "#E8A505",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3513,7 +3513,7 @@
         "name": "Rui 01",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_01.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3526,7 +3526,7 @@
         "name": "Rui 02",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_02.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3539,7 +3539,7 @@
         "name": "Rui 03",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_03.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3552,7 +3552,7 @@
         "name": "Rui 04",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_04.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3565,7 +3565,7 @@
         "name": "Rui 06",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_06.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3578,7 +3578,7 @@
         "name": "Rui 07",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_07.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3591,7 +3591,7 @@
         "name": "Rui 08",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_08.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3604,7 +3604,7 @@
         "name": "Rui 09",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_09.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3617,7 +3617,7 @@
         "name": "Rui 11",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_11.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3630,7 +3630,7 @@
         "name": "Rui 12",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_12.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3643,7 +3643,7 @@
         "name": "Rui 13",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_13.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3656,7 +3656,7 @@
         "name": "Rui 14",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_14.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3669,7 +3669,7 @@
         "name": "Rui 16",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_16.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3682,7 +3682,7 @@
         "name": "Rui 17",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_17.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3695,7 +3695,7 @@
         "name": "Rui 18",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_18.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3708,7 +3708,7 @@
         "name": "Rui 19",
         "character": "Rui",
         "img": "pjsk/Rui/Rui_19.png",
-        "color": "#BB88EE",
+        "fillColor": "#BB88EE",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3721,7 +3721,7 @@
         "name": "Saki 01",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_01.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3734,7 +3734,7 @@
         "name": "Saki 02",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_02.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3747,7 +3747,7 @@
         "name": "Saki 03",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_03.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3760,7 +3760,7 @@
         "name": "Saki 04",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_04.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3773,7 +3773,7 @@
         "name": "Saki 06",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_06.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3786,7 +3786,7 @@
         "name": "Saki 07",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_07.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3799,7 +3799,7 @@
         "name": "Saki 08",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_08.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3812,7 +3812,7 @@
         "name": "Saki 09",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_09.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3825,7 +3825,7 @@
         "name": "Saki 11",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_11.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3838,7 +3838,7 @@
         "name": "Saki 12",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_12.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3851,7 +3851,7 @@
         "name": "Saki 13",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_13.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3864,7 +3864,7 @@
         "name": "Saki 14",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_14.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3877,7 +3877,7 @@
         "name": "Saki 16",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_16.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3890,7 +3890,7 @@
         "name": "Saki 17",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_17.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3903,7 +3903,7 @@
         "name": "Saki 18",
         "character": "Saki",
         "img": "pjsk/Saki/Saki_18.png",
-        "color": "#F5B303",
+        "fillColor": "#F5B303",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3916,7 +3916,7 @@
         "name": "Shiho 01",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_01.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3929,7 +3929,7 @@
         "name": "Shiho 02",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_02.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3942,7 +3942,7 @@
         "name": "Shiho 03",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_03.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3955,7 +3955,7 @@
         "name": "Shiho 04",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_04.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3968,7 +3968,7 @@
         "name": "Shiho 06",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_06.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3981,7 +3981,7 @@
         "name": "Shiho 07",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_07.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -3994,7 +3994,7 @@
         "name": "Shiho 08",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_08.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4007,7 +4007,7 @@
         "name": "Shiho 09",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_09.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4020,7 +4020,7 @@
         "name": "Shiho 11",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_11.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4033,7 +4033,7 @@
         "name": "Shiho 12",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_12.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4046,7 +4046,7 @@
         "name": "Shiho 13",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_13.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4059,7 +4059,7 @@
         "name": "Shiho 14",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_14.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4072,7 +4072,7 @@
         "name": "Shiho 16",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_16.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4085,7 +4085,7 @@
         "name": "Shiho 17",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_17.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4098,7 +4098,7 @@
         "name": "Shiho 18",
         "character": "Shiho",
         "img": "pjsk/Shiho/Shiho_18.png",
-        "color": "#A0C10B",
+        "fillColor": "#A0C10B",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4111,7 +4111,7 @@
         "name": "Shizuku 01",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_01.png",
-        "color": "#5CD0B9",
+        "fillColor": "#5CD0B9",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4124,7 +4124,7 @@
         "name": "Shizuku 02",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_02.png",
-        "color": "#5CD0B9",
+        "fillColor": "#5CD0B9",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4137,7 +4137,7 @@
         "name": "Shizuku 03",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_03.png",
-        "color": "#5CD0B9",
+        "fillColor": "#5CD0B9",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4150,7 +4150,7 @@
         "name": "Shizuku 04",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_04.png",
-        "color": "#5CD0B9",
+        "fillColor": "#5CD0B9",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4163,7 +4163,7 @@
         "name": "Shizuku 06",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_06.png",
-        "color": "#5CD0B9",
+        "fillColor": "#5CD0B9",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4176,7 +4176,7 @@
         "name": "Shizuku 07",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_07.png",
-        "color": "#5CD0B9",
+        "fillColor": "#5CD0B9",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4189,7 +4189,7 @@
         "name": "Shizuku 08",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_08.png",
-        "color": "#5CD0B9",
+        "fillColor": "#5CD0B9",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4202,7 +4202,7 @@
         "name": "Shizuku 09",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_09.png",
-        "color": "#5CD0B9",
+        "fillColor": "#5CD0B9",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4215,7 +4215,7 @@
         "name": "Shizuku 11",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_11.png",
-        "color": "#5CD0B9",
+        "fillColor": "#5CD0B9",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4228,7 +4228,7 @@
         "name": "Shizuku 12",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_12.png",
-        "color": "#5CD0B9",
+        "fillColor": "#5CD0B9",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4241,7 +4241,7 @@
         "name": "Shizuku 13",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_13.png",
-        "color": "#5CD0B9",
+        "fillColor": "#5CD0B9",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4254,7 +4254,7 @@
         "name": "Shizuku 14",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_14.png",
-        "color": "#5CD0B9",
+        "fillColor": "#5CD0B9",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4267,7 +4267,7 @@
         "name": "Shizuku 16",
         "character": "Shizuku",
         "img": "pjsk/Shizuku/Shizuku_16.png",
-        "color": "#5CD0B9",
+        "fillColor": "#5CD0B9",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4280,7 +4280,7 @@
         "name": "Touya 01",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_01.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4293,7 +4293,7 @@
         "name": "Touya 02",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_02.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4306,7 +4306,7 @@
         "name": "Touya 03",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_03.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4319,7 +4319,7 @@
         "name": "Touya 04",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_04.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4332,7 +4332,7 @@
         "name": "Touya 06",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_06.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4345,7 +4345,7 @@
         "name": "Touya 07",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_07.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4358,7 +4358,7 @@
         "name": "Touya 08",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_08.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4371,7 +4371,7 @@
         "name": "Touya 09",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_09.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4384,7 +4384,7 @@
         "name": "Touya 11",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_11.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4397,7 +4397,7 @@
         "name": "Touya 12",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_12.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4410,7 +4410,7 @@
         "name": "Touya 13",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_13.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4423,7 +4423,7 @@
         "name": "Touya 14",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_14.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4436,7 +4436,7 @@
         "name": "Touya 16",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_16.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4449,7 +4449,7 @@
         "name": "Touya 17",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_17.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4462,7 +4462,7 @@
         "name": "Touya 18",
         "character": "Touya",
         "img": "pjsk/Touya/Touya_18.png",
-        "color": "#0077DD",
+        "fillColor": "#0077DD",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4475,7 +4475,7 @@
         "name": "Tsukasa 01",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_01.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4488,7 +4488,7 @@
         "name": "Tsukasa 02",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_02.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4501,7 +4501,7 @@
         "name": "Tsukasa 03",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_03.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4514,7 +4514,7 @@
         "name": "Tsukasa 04",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_04.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4527,7 +4527,7 @@
         "name": "Tsukasa 06",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_06.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4540,7 +4540,7 @@
         "name": "Tsukasa 07",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_07.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4553,7 +4553,7 @@
         "name": "Tsukasa 08",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_08.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4566,7 +4566,7 @@
         "name": "Tsukasa 09",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_09.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4579,7 +4579,7 @@
         "name": "Tsukasa 11",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_11.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4592,7 +4592,7 @@
         "name": "Tsukasa 12",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_12.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4605,7 +4605,7 @@
         "name": "Tsukasa 13",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_13.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4618,7 +4618,7 @@
         "name": "Tsukasa 14",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_14.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4631,7 +4631,7 @@
         "name": "Tsukasa 16",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_16.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4644,7 +4644,7 @@
         "name": "Tsukasa 17",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_17.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -4657,7 +4657,7 @@
         "name": "Tsukasa 18",
         "character": "Tsukasa",
         "img": "pjsk/Tsukasa/Tsukasa_18.png",
-        "color": "#F09A04",
+        "fillColor": "#F09A04",
         "defaultText": {
             "text": "something",
             "x": 148,
