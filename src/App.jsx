@@ -241,7 +241,7 @@ function App() {
               <Slider
                 value={rotate}
                 onChange={(e, v) => setRotate(v)}
-                min={-30}
+                min={-20}
                 max={10}
                 step={0.2}
                 track={false}
@@ -263,7 +263,7 @@ function App() {
               />
             </div>
             <div>
-              <label>文字弧形 (Beta): </label>
+              <label>文字弧形: </label>
               <Switch
                 checked={curve}
                 onChange={(e) => setCurve(e.target.checked)}
