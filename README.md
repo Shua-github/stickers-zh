@@ -12,3 +12,5 @@
 
 ## 开源协议
 根据 MIT 许可证分发。有关更多信息，请参阅 [`LICENSE`](https://github.com/Shua-github/stickers-zh/blob/main/LICENCE)
+
+## 如果有其他原始表情(不带字),欢迎补充,非常感谢
