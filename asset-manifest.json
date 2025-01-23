@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/stickers-zh/static/css/main.52674624.css",
-    "main.js": "/stickers-zh/static/js/main.bb2c6b2b.js",
+    "main.js": "/stickers-zh/static/js/main.789ab55b.js",
     "static/media/HarmonyOS_Sans.woff2": "/stickers-zh/static/media/HarmonyOS_Sans.fd7a0d0b294579b86f40.woff2",
     "static/media/ShangShouFangTangTi.woff2": "/stickers-zh/static/media/ShangShouFangTangTi.86f6651bda19f72a48d3.woff2",
     "index.html": "/stickers-zh/index.html",
     "main.52674624.css.map": "/stickers-zh/static/css/main.52674624.css.map",
-    "main.bb2c6b2b.js.map": "/stickers-zh/static/js/main.bb2c6b2b.js.map"
+    "main.789ab55b.js.map": "/stickers-zh/static/js/main.789ab55b.js.map"
   },
   "entrypoints": [
     "static/css/main.52674624.css",
-    "static/js/main.bb2c6b2b.js"
+    "static/js/main.789ab55b.js"
   ]
 }
