@@ -22,6 +22,7 @@ export default function Picker({ setCharacter }) {
 
   const open = Boolean(anchorEl);
   const id = open ? "picker" : undefined;
+  const path = window.location.href;
 
   // 缓存过滤后的图片列表项，避免在每次渲染时重新计算
   const memoizedImageListItems = useMemo(() => {
@@ -50,8 +51,8 @@ export default function Picker({ setCharacter }) {
             }}
           >
             <img
-              src={`${process.env.PUBLIC_URL}/img/${c.img}`}
-              srcSet={`${process.env.PUBLIC_URL}/img/${c.img}`}
+              src={`${path}/img/${c.img}`}
+              srcSet={`${path}/img/${c.img}`}
               alt={c.name}
               loading="lazy"
             />
@@ -70,7 +71,7 @@ export default function Picker({ setCharacter }) {
         color="secondary"
         onClick={handleClick}
       >
-        选择角色
+        选择表情
       </Button>
       <Popover
         id={id}

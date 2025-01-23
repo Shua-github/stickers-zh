@@ -4,7 +4,7 @@
 ## 功能
 - [x] 下载/复制表情
 - [x] 预览表情 
-- [ ] 通过api方式调用[meme-generator](https://github.com/MemeCrafters/meme-generator)生成表情(等好心人pr)
+- [ ] 通过api方式调用[meme-generator](https://github.com/MemeCrafters/meme-generator)生成表情(在开发了)
 
 ## 谢谢他们和它们
 - [Arcaea Stickers](https://github.com/Rosemoe/arcaea-stickers)

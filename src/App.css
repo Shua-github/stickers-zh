@@ -70,6 +70,18 @@
   border-radius: 0.25rem;
 }
 
+.actions {
+  display: flex;
+  justify-content: space-between; /* 子元素之间分开 */
+  align-items: center; /* 子元素在垂直方向上居中 *//* 设置容器的高度以便查看居中效果 */
+}
+.下载 {
+  height: 30px;
+}
+.复制 {
+  height: 30px;
+}
+
 .buttons {
   display: flex;
   align-items: center;

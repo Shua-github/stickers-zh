@@ -35,6 +35,9 @@ function App() {
   const [strokeColorPickerVisible, setStrokeColorPickerVisible] = useState(false); // 控制描边颜色选择器显示
   const [fontColor, setFontColor] = useState(characters[character].fillColor); // 字体颜色
   const [strokeColor, setStrokeColor] = useState(characters[character].strokeColor); // 描边颜色
+  const [memesSwich, setmemesSwich] = useState(false);  // 控制所有设置项的显示/隐藏
+  const [memeUrl, setMemeUrl] = useState(''); // 新状态，保存输入的 URL
+
   const img = new Image();
 
   // Preload font
@@ -66,7 +69,8 @@ function App() {
     setLoaded(false);
   }, [character]);
 
-  img.src = `${process.env.PUBLIC_URL}/img/` + characters[character].img;
+  const path = window.location.href;
+  img.src = `${path}/img/` + characters[character].img;
   img.onload = () => {
     setLoaded(true);
   };
@@ -174,26 +178,43 @@ function App() {
     setRand(rand + 1);
   };
 
-  function b64toBlob(b64Data, contentType = "image/png", sliceSize = 512) {
+  const b64toBlob = (b64Data, contentType = "image/png") => {
     const byteCharacters = atob(b64Data);
-    const byteArrays = [];
-    for (let offset = 0; offset < byteCharacters.length; offset += sliceSize) {
-      const slice = byteCharacters.slice(offset, offset + sliceSize);
-      const byteNumbers = Array.from(slice, (char) => char.charCodeAt(0));
-      byteArrays.push(new Uint8Array(byteNumbers));
+    const byteArrays = new Uint8Array(byteCharacters.length);
+    for (let i = 0; i < byteCharacters.length; i++) {
+      byteArrays[i] = byteCharacters.charCodeAt(i);
     }
-    return new Blob(byteArrays, { type: contentType });
-  }
+    return new Blob([byteArrays], { type: contentType });
+  };
 
   const copy = async () => {
+    if (!ClipboardItem) {
+      alert('您的浏览器不支持复制图片到剪贴板');
+      return;
+    }
     const canvas = document.getElementsByTagName("canvas")[0];
-    await navigator.clipboard.write([
-      new ClipboardItem({
-        "image/png": b64toBlob(canvas.toDataURL().split(",")[1]),
-      }),
-    ]);
+    await navigator.clipboard.write([new ClipboardItem({
+      "image/png": b64toBlob(canvas.toDataURL().split(",")[1]),
+    })]);
     setOpenCopySnackbar(true);
     setRand(rand + 1);
+  };
+
+  const send_request = async (method,url, inter) => {
+    if (!url || (!url.startsWith('http://') && !url.startsWith('https://'))) {
+      console.log("URL不能为空且必须以http://或https://开头！");
+      return;
+    }
+
+    try {
+      const response = await fetch(`${url}/${inter}`, {
+        method: `${method}`,
+      });
+      const data = await response.json();
+      console.log(data); // 控制台输出返回的数据
+    } catch (error) {
+      console.error('请求失败:', error);
+    }
   };
 
   return (
@@ -234,129 +255,151 @@ function App() {
           <div className="settings">
             <div>
               <label>
-                <nobr>旋转角度: </nobr>
-              </label>
-              <Slider
-                value={rotate}
-                onChange={(e, v) => setRotate(v)}
-                min={-20}
-                max={10}
-                step={0.2}
-                track={false}
-                color="secondary"
-              />
-            </div>
-            <div>
-              <label>
-                <nobr>字体大小: </nobr>
-              </label>
-              <Slider
-                value={fontSize}
-                onChange={(e, v) => setFontSize(v)}
-                min={10}
-                max={100}
-                step={1}
-                track={false}
-                color="secondary"
-              />
-            </div>
-            <div>
-              <label>文字弧形: </label>
-              <Switch
-                checked={curve}
-                onChange={(e) => setCurve(e.target.checked)}
-                color="secondary"
-              />
-            </div>
-            <div>
-              <label>
-                <nobr>弧形曲度: </nobr>
-              </label>
-              <Slider
-                value={curveAmount}
-                onChange={(e, v) => setCurveAmount(v)}
-                min={0.05}
-                max={0.5}
-                step={0.01}
-                track={false}
-                color="secondary"
-              />
-            </div>
-
-            {/* 字体颜色调整开关 */}
-            <div style={{ position: 'relative' }}>
-              <label>
-                <nobr>字体颜色调整: </nobr>
+                <nobr>meme表情制作: </nobr>
               </label>
               <Switch
-                checked={colorPickerVisible} // 修改这里
-                onChange={() => setColorPickerVisible(!colorPickerVisible)} // 点击开关显示/隐藏颜色选择器
+                checked={memesSwich}
+                onChange={() => setmemesSwich(!memesSwich)}
                 color="secondary"
-              ></Switch>
-
-              {/* 字体颜色选择器 */}
-              {colorPickerVisible && (
-                <div style={{
-                  position: 'absolute',
-                  left: '120%', // 右侧显示
-                  top: -270,
-                  zIndex: 10,
-                }}>
-                  <SketchPicker
-                    color={fontColor}
-                    onChangeComplete={handleFontColorChange}
+              />
+            </div>
+            {!memesSwich && (
+              <>
+                <div>
+                  <label>
+                    <nobr>旋转角度: </nobr>
+                  </label>
+                  <Slider
+                    value={rotate}
+                    onChange={(e, v) => setRotate(v)}
+                    min={-20}
+                    max={10}
+                    step={0.2}
+                    track={false}
+                    color="secondary"
                   />
                 </div>
-              )}
-            </div>
-
-            {/* 描边颜色调整 */}
-            <div style={{ position: 'relative' }}>
-              <label>
-                <nobr>描边颜色调整: </nobr>
-              </label>
-              <Switch
-                checked={strokeColorPickerVisible} 
-                onChange={() => setStrokeColorPickerVisible(!strokeColorPickerVisible)} // 点击开关显示/隐藏颜色选择器
-                color="secondary"
-              ></Switch>
-
-              {/* 描边颜色选择器 */}
-              {strokeColorPickerVisible && (
-                <div style={{
-                  position: 'absolute',
-                  left: '120%', // 右侧显示
-                  top: 0,
-                  zIndex: 10,
-                }}>
-                  <SketchPicker
-                    color={strokeColor}
-                    onChangeComplete={handleStrokeColorChange}
+                <div>
+                  <label>
+                    <nobr>字体大小: </nobr>
+                  </label>
+                  <Slider
+                    value={fontSize}
+                    onChange={(e, v) => setFontSize(v)}
+                    min={10}
+                    max={100}
+                    step={1}
+                    track={false}
+                    color="secondary"
                   />
                 </div>
-              )}
-            </div>
-          </div>
-          <div className="text">
-            <TextField
-              label="文字内容"
-              size="small"
-              color="secondary"
-              value={text}
-              multiline={true}
-              fullWidth={true}
-              onChange={(e) => setText(e.target.value)}
-            />
+                <div>
+                  <label>文字弧形: </label>
+                  <Switch
+                    checked={curve}
+                    onChange={(e) => setCurve(e.target.checked)}
+                    color="secondary"
+                  />
+                </div>
+                {curve && (<div>
+                  <label>
+                    <nobr>弧形曲度: </nobr>
+                  </label>
+                  <Slider
+                    value={curveAmount}
+                    onChange={(e, v) => setCurveAmount(v)}
+                    min={0.05}
+                    max={0.5}
+                    step={0.01}
+                    track={false}
+                    color="secondary"
+                  />
+                </div>)}
+                <div>
+                  <label>字体颜色调整: </label>
+                  <Switch
+                    checked={colorPickerVisible}
+                    onChange={() => setColorPickerVisible(!colorPickerVisible)}
+                    color="secondary"
+                  />
+                  {colorPickerVisible && (
+                    <div style={{ position: 'absolute', left: '120%', top: -270, zIndex: 10 }}>
+                      <SketchPicker color={fontColor} onChangeComplete={handleFontColorChange} />
+                    </div>
+                  )}
+                </div>
+                <div>
+                  <label>描边颜色调整: </label>
+                  <Switch
+                    checked={strokeColorPickerVisible}
+                    onChange={() => setStrokeColorPickerVisible(!strokeColorPickerVisible)}
+                    color="secondary"
+                  />
+                  {strokeColorPickerVisible && (
+                    <div style={{ position: 'absolute', left: '120%', top: 0, zIndex: 10 }}>
+                      <SketchPicker color={strokeColor} onChangeComplete={handleStrokeColorChange} />
+                    </div>
+                  )}
+                </div>
+                <div className="text">
+                  <TextField
+                    label="文字内容"
+                    size="small"
+                    color="secondary"
+                    value={text}
+                    multiline={true}
+                    fullWidth={true}
+                    onChange={(e) => setText(e.target.value)}
+                  />
+                </div>
+              </>
+            )}
+            {memesSwich && (
+              <>
+                <div className="text">
+                  <TextField
+                    label="Meme服务器URL"
+                    size="small"
+                    color="secondary"
+                    value={memeUrl}
+                    multiline={true}
+                    fullWidth={true}
+                    onChange={(e) => setMemeUrl(e.target.value)}
+                  />
+                </div>
+                <div className="发送请求">
+                  <Button
+                    variant="contained"
+                    color="secondary"
+                    size="small"
+                    onClick={() => send_request('GET',memeUrl, 'memes/keys')}
+                  >
+                    发送请求
+                  </Button>
+                </div>
+              </>
+            )}
           </div>
           <div className="picker">
             <Picker setCharacter={setCharacter} />
           </div>
-          <div className="buttons">
-            <Button color="secondary" onClick={copy}>
-              复制
-            </Button>
-            <Button color="secondary" onClick={download}>
+          <div className="actions">
+            <Button
+              variant="contained"
+              color="secondary"
+              size="small"
+              onClick={download}
+              className="下载">
               下载
+            </Button>
+            <Button
+              variant="contained"
+              color="secondary"
+              size="small"
+              onClick={copy}
+              className="复制"
+            >
+              复制
             </Button>
           </div>
         </div>
@@ -369,10 +412,9 @@ function App() {
       <Snackbar
         anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
         open={openCopySnackbar}
+        autoHideDuration={3000}
+        message="已复制到剪贴板"
         onClose={() => setOpenCopySnackbar(false)}
-        message="图片已复制到剪贴板"
-        key="copy"
-        autoHideDuration={1500}
       />
     </div>
   );
