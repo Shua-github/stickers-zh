@@ -61,7 +61,7 @@ export default function Picker({ setCharacter }) {
       }
       return null;
     });
-  }, [search, setCharacter]);
+  }, [search, setCharacter, path]); // 将 path 添加到依赖数组中
 
   return (
     <div>
