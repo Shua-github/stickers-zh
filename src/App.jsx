@@ -315,32 +315,57 @@ function App() {
                     color="secondary"
                   />
                 </div>)}
-                <div>
-                  <label>字体颜色调整: </label>
-                  <Switch
-                    checked={colorPickerVisible}
-                    onChange={() => setColorPickerVisible(!colorPickerVisible)}
-                    color="secondary"
+                <div style={{ position: 'relative' }}>
+              <label>
+                <nobr>字体颜色调整: </nobr>
+              </label>
+              <Switch
+                checked={colorPickerVisible}
+                onChange={() => setColorPickerVisible(!colorPickerVisible)}
+                color="secondary"
+              ></Switch>
+
+              {/* 字体颜色选择器 */}
+              {colorPickerVisible && (
+                <div style={{
+                  position: 'absolute',
+                  left: '120%',
+                  top: -270,
+                  zIndex: 10,
+                }}>
+                  <SketchPicker
+                    color={fontColor}
+                    onChangeComplete={handleFontColorChange}
                   />
-                  {colorPickerVisible && (
-                    <div style={{ position: 'absolute', left: '120%', top: -270, zIndex: 10 }}>
-                      <SketchPicker color={fontColor} onChangeComplete={handleFontColorChange} />
-                    </div>
-                  )}
                 </div>
-                <div>
-                  <label>描边颜色调整: </label>
-                  <Switch
-                    checked={strokeColorPickerVisible}
-                    onChange={() => setStrokeColorPickerVisible(!strokeColorPickerVisible)}
-                    color="secondary"
+              )}
+            </div>
+
+            {/* 描边颜色调整 */}
+            <div style={{ position: 'relative' }}>
+              <label>
+                <nobr>描边颜色调整: </nobr>
+              </label>
+              <Switch
+                checked={strokeColorPickerVisible} 
+                onChange={() => setStrokeColorPickerVisible(!strokeColorPickerVisible)}
+              ></Switch>
+
+              {/* 描边颜色选择器 */}
+              {strokeColorPickerVisible && (
+                <div style={{
+                  position: 'absolute',
+                  left: '120%',
+                  top: 0,
+                  zIndex: 10,
+                }}>
+                  <SketchPicker
+                    color={strokeColor}
+                    onChangeComplete={handleStrokeColorChange}
                   />
-                  {strokeColorPickerVisible && (
-                    <div style={{ position: 'absolute', left: '120%', top: 0, zIndex: 10 }}>
-                      <SketchPicker color={strokeColor} onChangeComplete={handleStrokeColorChange} />
-                    </div>
-                  )}
                 </div>
+              )}
+            </div>
                 <div className="text">
                   <TextField
                     label="文字内容"
