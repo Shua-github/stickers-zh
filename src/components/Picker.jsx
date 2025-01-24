@@ -6,9 +6,8 @@ import {
   TextField,
 } from "@mui/material";
 import { useState, useMemo } from "react";
-import characters from '../utils/loadcharacters';
 
-export default function Picker({ setCharacter }) {
+export default function Picker({ setCharacter , characters }) {
   const [anchorEl, setAnchorEl] = useState(null);
   const [search, setSearch] = useState("");
 
@@ -33,6 +32,11 @@ export default function Picker({ setCharacter }) {
         c.name.toLowerCase().includes(s) ||
         c.character.toLowerCase().includes(s)
       ) {
+        // 判断 c.img 是否是完整的 URL
+        const imgSrc = c.img.startsWith('http://') || c.img.startsWith('https://')
+          ? c.img
+          : `${path}/img/${c.img}`;
+
         return (
           <ImageListItem
             key={index}
@@ -51,8 +55,8 @@ export default function Picker({ setCharacter }) {
             }}
           >
             <img
-              src={`${path}/img/${c.img}`}
-              srcSet={`${path}/img/${c.img}`}
+              src={imgSrc}
+              srcSet={imgSrc}
               alt={c.name}
               loading="lazy"
             />
@@ -61,7 +65,7 @@ export default function Picker({ setCharacter }) {
       }
       return null;
     });
-  }, [search, setCharacter, path]); // 将 path 添加到依赖数组中
+  }, [search, setCharacter, path, characters]); // 将 path 添加到依赖数组中
 
   return (
     <div>

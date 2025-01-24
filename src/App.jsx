@@ -11,14 +11,15 @@ import Picker from "./components/Picker";
 import Info from "./components/Info";
 import { preloadFont } from "./utils/preload";
 import { SketchPicker } from 'react-color'; // 引入颜色选择器组件
-import characters from './utils/loadcharacters';
+import { loadMemeJson } from './utils/loadcharacters';
+import characters from './utils/loadcharacters'
 
 const { ClipboardItem } = window;
 
 function App() {
   const [rand, setRand] = useState(0);
   const [infoOpen, setInfoOpen] = useState(false);
-  const [openCopySnackbar, setOpenCopySnackbar] = useState(false);
+  const [CopyMsg, setCopyMsg] = useState(false);
   const [character, setCharacter] = useState(5);
   const [text, setText] = useState(characters[character].defaultText.text);
   const [position, setPosition] = useState({
@@ -37,6 +38,10 @@ function App() {
   const [strokeColor, setStrokeColor] = useState(characters[character].strokeColor); // 描边颜色
   const [memesSwich, setmemesSwich] = useState(false);  // 控制所有设置项的显示/隐藏
   const [memeUrl, setMemeUrl] = useState(''); // 新状态，保存输入的 URL
+  const [ErrorURLMsg, setErrorURLMsg] = useState(false)
+  const [ErrorMsg, setErrorMsg] = useState(false)
+  const [SuccessMsg, setSuccessMsg] = useState(false)
+  const [memecharacterList, setmemecharacterList] = useState([])
 
   const img = new Image();
 
@@ -70,7 +75,13 @@ function App() {
   }, [character]);
 
   const path = window.location.href;
-  img.src = `${path}/img/` + characters[character].img;
+  const imgPath = characters[character].img;
+  
+  if (imgPath.startsWith('http://') || imgPath.startsWith('https://')) {
+    img.src = imgPath; // 直接使用绝对路径
+  } else {
+    img.src = `${path}/img/` + imgPath; // 拼接相对路径
+  }
   img.onload = () => {
     setLoaded(true);
   };
@@ -86,85 +97,90 @@ function App() {
   };
 
   const draw = (ctx) => {
-    ctx.canvas.width = 296;
+    ctx.canvas.width = 256;
     ctx.canvas.height = 256;
 
     if (loaded && document.fonts.check("12px YurukaStd")) {
-      const hRatio = ctx.canvas.width / img.width;
-      const vRatio = ctx.canvas.height / img.height;
-      const ratio = Math.min(hRatio, vRatio);
-      const centerShift_x = (ctx.canvas.width - img.width * ratio) / 2;
-      const centerShift_y = (ctx.canvas.height - img.height * ratio) / 2;
-      ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
-      ctx.drawImage(
-        img,
-        0,
-        0,
-        img.width,
-        img.height,
-        centerShift_x,
-        centerShift_y,
-        img.width * ratio,
-        img.height * ratio
-      );
-      ctx.font = `${fontSize}px YurukaStd, SSFangTangTi`;
-      ctx.miterLimit = 2.5;
-      ctx.save();
+        const hRatio = ctx.canvas.width / img.width;
+        const vRatio = ctx.canvas.height / img.height;
+        const ratio = Math.min(hRatio, vRatio);
+        const centerShift_x = (ctx.canvas.width - img.width * ratio) / 2;
+        const centerShift_y = (ctx.canvas.height - img.height * ratio) / 2;
+        ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+        ctx.drawImage(
+            img,
+            0,
+            0,
+            img.width,
+            img.height,
+            centerShift_x,
+            centerShift_y,
+            img.width * ratio,
+            img.height * ratio
+        );
 
-      ctx.translate(position.x, position.y);
-      ctx.rotate(rotate / 10);
-      ctx.textAlign = "center";
-      ctx.fillStyle = fontColor; // 使用更新后的字体颜色
-      const lines = text.split("\n");
-
-      if (curve) {
-        ctx.save();
-        for (let line of lines) {
-          const lineAngle = Math.PI * line.length * curveAmount;
-          for (let pass = 0; pass < 2; pass++) {
+        // 如果 memesSwitch 为 true，则不绘制文字
+        if (!memesSwich) {
+            ctx.font = `${fontSize}px YurukaStd, SSFangTangTi`;
+            ctx.miterLimit = 2.5;
             ctx.save();
-            for (let i = 0; i < line.length; i++) {
-              ctx.rotate(lineAngle / line.length / 2);
-              ctx.save();
-              ctx.translate(0, -fontSize * 4);
-              if (pass === 0) {
-                ctx.strokeStyle = "white";
-                ctx.lineWidth = 15;
-                ctx.strokeText(line[i], 0, 0);
-              } else {
-                ctx.strokeStyle = strokeColor; // 使用更新后的描边颜色
-                ctx.lineWidth = 5;
-                ctx.strokeText(line[i], 0, 0);
-                ctx.fillText(line[i], 0, 0);
-              }
-              ctx.restore();
-            }
-            ctx.restore();
-          }
-          ctx.translate(0, ((spaceSize - 50) / 50 + 1) * fontSize);
-        }
-        ctx.restore();
-      } else {
-        for (let pass = 0; pass < 2; pass++) {
-          let k = 0;
-          for (let i = 0; i < lines.length; i++) {
-            if (pass === 0) {
-              ctx.strokeStyle = "white";
-              ctx.lineWidth = 15;
-              ctx.strokeText(lines[i], 0, k);
+
+            ctx.translate(position.x, position.y);
+            ctx.rotate(rotate / 10);
+            ctx.textAlign = "center";
+            ctx.fillStyle = fontColor; // 使用更新后的字体颜色
+            const lines = text.split("\n");
+
+            if (curve) {
+                ctx.save();
+                for (let line of lines) {
+                    const lineAngle = Math.PI * line.length * curveAmount;
+                    for (let pass = 0; pass < 2; pass++) {
+                        ctx.save();
+                        for (let i = 0; i < line.length; i++) {
+                            ctx.rotate(lineAngle / line.length / 2);
+                            ctx.save();
+                            ctx.translate(0, -fontSize * 4);
+                            if (pass === 0) {
+                                ctx.strokeStyle = "white";
+                                ctx.lineWidth = 15;
+                                ctx.strokeText(line[i], 0, 0);
+                            } else {
+                                ctx.strokeStyle = strokeColor; // 使用更新后的描边颜色
+                                ctx.lineWidth = 5;
+                                ctx.strokeText(line[i], 0, 0);
+                                ctx.fillText(line[i], 0, 0);
+                            }
+                            ctx.restore();
+                        }
+                        ctx.restore();
+                    }
+                    ctx.translate(0, ((spaceSize - 50) / 50 + 1) * fontSize);
+                }
+                ctx.restore();
             } else {
-              ctx.strokeStyle = strokeColor; // 使用更新后的描边颜色
-              ctx.lineWidth = 5;
-              ctx.strokeText(lines[i], 0, k);
-              ctx.fillText(lines[i], 0, k);
+                for (let pass = 0; pass < 2; pass++) {
+                    let k = 0;
+                    for (let i = 0; i < lines.length; i++) {
+                        if (pass === 0) {
+                            ctx.strokeStyle = "white";
+                            ctx.lineWidth = 15;
+                            ctx.strokeText(lines[i], 0, k);
+                        } else {
+                            ctx.strokeStyle = strokeColor; // 使用更新后的描边颜色
+                            ctx.lineWidth = 5;
+                            ctx.strokeText(lines[i], 0, k);
+                            ctx.fillText(lines[i], 0, k);
+                        }
+                        k += ((spaceSize - 50) / 50 + 1) * fontSize;
+                    }
+                }
+                ctx.restore();
             }
-            k += ((spaceSize - 50) / 50 + 1) * fontSize;
-          }
         }
-        ctx.restore();
-      }
     }
-  };
+};
+
 
   const download = async () => {
     const canvas = document.getElementsByTagName("canvas")[0];
@@ -179,7 +195,7 @@ function App() {
   };
 
   const b64toBlob = (b64Data, contentType = "image/png") => {
-    const byteCharacters = atob(b64Data);
+    const byteCharacters = Buffer.from(b64Data,'base64');
     const byteArrays = new Uint8Array(byteCharacters.length);
     for (let i = 0; i < byteCharacters.length; i++) {
       byteArrays[i] = byteCharacters.charCodeAt(i);
@@ -196,27 +212,74 @@ function App() {
     await navigator.clipboard.write([new ClipboardItem({
       "image/png": b64toBlob(canvas.toDataURL().split(",")[1]),
     })]);
-    setOpenCopySnackbar(true);
+    setCopyMsg(true);
     setRand(rand + 1);
   };
 
-  const send_request = async (method,url, inter) => {
-    if (!url || (!url.startsWith('http://') && !url.startsWith('https://'))) {
-      console.log("URL不能为空且必须以http://或https://开头！");
-      return;
-    }
-
+  const fetchMemeInfoList = async (memeUrl) => {
     try {
+        const MemeList = await send_request('GET', memeUrl, 'memes/keys');; // 获取 Meme 列表
+        const infoResults = await Promise.all(
+            MemeList.map(async (meme) => {
+                try {
+                    const temp = []
+                    const memePath = `memes/${meme}/info`; // 构建请求 URL
+                    const memeData = await send_request('GET', memeUrl, memePath); // 获取 meme 数据
+
+                    // 从 memeData 中提取 params_type 和 key
+                    const params_type = memeData['params_type'];
+                    const key = memeData['key'];
+
+                    // 将 meme 数据添加到 memecharacterList
+                    temp.push({
+                        name: memeData['keywords'],
+                        character: memeData['key'],
+                        img: `${memeUrl}/memes/${key}/preview`,
+                        default_texts: params_type['default_texts'],
+                        min_images: params_type['min_images'],
+                        max_images: params_type['max_images'],
+                        min_texts: params_type['min_texts'],
+                        max_texts: params_type['max_texts'],
+                    });
+                    const data = loadMemeJson(temp)
+                    console.log(data);
+                    setmemecharacterList(data)
+                    return data; // 返回 meme 和对应的 info
+                } catch (error) {
+                    console.error(`获取 ${meme} 的 info 失败:`, error);
+                    setErrorMsg(true);
+                    return null; // 返回 null 表示失败
+                }
+            })
+        );
+
+        setSuccessMsg(true); // 所有请求完成后调用
+        console.log(infoResults);
+        return infoResults; // 返回所有 meme 的 info 数据
+    } catch (error) {
+        console.error('获取 meme info 列表失败:', error);
+        setErrorMsg(true);
+        return []; // 返回空数组表示失败
+    }
+  };
+  
+  
+  const send_request = async (method, url, inter) => {
+      if (!url.startsWith('http://') && !url.startsWith('https://')) {
+        setErrorURLMsg(true);
+        throw new Error('URL不合法')
+      }
       const response = await fetch(`${url}/${inter}`, {
         method: `${method}`,
       });
+      if (!response.ok) {
+        throw new Error('请求失败');
+      }
       const data = await response.json();
       console.log(data); // 控制台输出返回的数据
-    } catch (error) {
-      console.error('请求失败:', error);
-    }
+      return data; // 返回解析后的数据
   };
-
+  
   return (
     <div className="App">
       <Info open={infoOpen} handleClose={() => setInfoOpen(false)} />
@@ -392,12 +455,12 @@ function App() {
                     onChange={(e) => setMemeUrl(e.target.value)}
                   />
                 </div>
-                <div className="发送请求">
+                <div className="输出列表">
                   <Button
                     variant="contained"
                     color="secondary"
                     size="small"
-                    onClick={() => send_request('GET',memeUrl, 'memes/keys')}
+                    onClick={() =>fetchMemeInfoList(memeUrl)}
                   >
                     发送请求
                   </Button>
@@ -406,7 +469,7 @@ function App() {
             )}
           </div>
           <div className="picker">
-            <Picker setCharacter={setCharacter} />
+            <Picker setCharacter={setCharacter} characters={characters}/>
           </div>
           <div className="actions">
             <Button
@@ -436,10 +499,31 @@ function App() {
       </div>
       <Snackbar
         anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
-        open={openCopySnackbar}
+        open={CopyMsg}
         autoHideDuration={3000}
         message="已复制到剪贴板"
-        onClose={() => setOpenCopySnackbar(false)}
+        onClose={() => setCopyMsg(false)}
+      />
+      <Snackbar
+        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+        open={ErrorURLMsg}
+        autoHideDuration={3000}
+        message="URL不合法"
+        onClose={() => setErrorURLMsg(false)}
+      />
+      <Snackbar
+        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+        open={ErrorMsg}
+        autoHideDuration={3000}
+        message="输入错误或运行发生错误"
+        onClose={() => setErrorMsg(false)}
+      />
+      <Snackbar
+        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+        open={SuccessMsg}
+        autoHideDuration={3000}
+        message="获取成功"
+        onClose={() => setSuccessMsg(false)}
       />
     </div>
   );

@@ -1,17 +1,15 @@
-function loadAndMergeJson(requireContext) {
-    let idCounter = 1; // 用于生成全局唯一 ID
-    const mergedList = []; // 用于存储合并后的结果
+function loadAndMergeJson(requireContext, externalJson = []) {
+    let idCounter = 1;
+    const mergedList = [];
 
+    // 加载默认表情
     requireContext.keys().forEach((key) => {
-        const jsonData = requireContext(key); // 动态加载 JSON
-
-        // 检查数据是否为数组
+        const jsonData = requireContext(key);
         if (Array.isArray(jsonData)) {
-            // 遍历数组，为每个对象添加唯一 ID
             jsonData.forEach((item) => {
                 mergedList.push({
-                    ...item, // 原对象内容
-                    id: idCounter++, // 唯一 ID
+                    ...item,
+                    id: idCounter++,
                 });
             });
         } else {
@@ -19,11 +17,39 @@ function loadAndMergeJson(requireContext) {
         }
     });
 
+    // 合并外部 JSON 数据
+    externalJson.forEach((item) => {
+        mergedList.push({
+            ...item,
+            id: idCounter++,
+        });
+    });
+
     return mergedList;
 }
 
-// 加载文件夹中的所有 JSON 文件
-const jsonFiles = require.context('../characters', false, /\.json$/);
-const allJson = loadAndMergeJson(jsonFiles);
+function loadMemeJson(externalJson) {
+    let idCounter = 1;
+    const mergedList = [];
 
+    // 合并外部 JSON 数据
+    externalJson.forEach((item) => {
+        mergedList.push({
+            ...item,
+            id: idCounter++,
+        });
+    });
+
+    // 使用 flatMap 展平数组
+    const flattenedList = mergedList.flatMap(item => item);
+
+    return flattenedList;
+}
+
+// 加载默认表情
+const jsonFiles = require.context('../characters', false, /\.json$/);
+
+const allJson = loadAndMergeJson(jsonFiles);
 export default allJson;
+
+export { loadMemeJson };
