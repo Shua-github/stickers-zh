@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/stickers-zh/static/css/main.52674624.css",
-    "main.js": "/stickers-zh/static/js/main.b3f9a0b3.js",
-    "static/media/HarmonyOS_Sans.woff2": "/stickers-zh/static/media/HarmonyOS_Sans.fd7a0d0b294579b86f40.woff2",
-    "static/media/ShangShouFangTangTi.woff2": "/stickers-zh/static/media/ShangShouFangTangTi.86f6651bda19f72a48d3.woff2",
-    "index.html": "/stickers-zh/index.html",
-    "main.52674624.css.map": "/stickers-zh/static/css/main.52674624.css.map",
-    "main.b3f9a0b3.js.map": "/stickers-zh/static/js/main.b3f9a0b3.js.map"
+    "main.css": "/static/css/main.c472cc0e.css",
+    "main.js": "/static/js/main.ccc3d7b9.js",
+    "static/media/HarmonyOS_Sans.woff2": "/static/media/HarmonyOS_Sans.fd7a0d0b294579b86f40.woff2",
+    "static/media/ShangShouFangTangTi.woff2": "/static/media/ShangShouFangTangTi.86f6651bda19f72a48d3.woff2",
+    "index.html": "/index.html",
+    "main.c472cc0e.css.map": "/static/css/main.c472cc0e.css.map",
+    "main.ccc3d7b9.js.map": "/static/js/main.ccc3d7b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.52674624.css",
-    "static/js/main.b3f9a0b3.js"
+    "static/css/main.c472cc0e.css",
+    "static/js/main.ccc3d7b9.js"
   ]
 }
