@@ -244,6 +244,7 @@ function App() {
                     const data = loadMemeJson(temp)
                     console.log(data);
                     setmemecharacterList(data)
+                    console.log(memecharacterList);
                     return data; // 返回 meme 和对应的 info
                 } catch (error) {
                     console.error(`获取 ${meme} 的 info 失败:`, error);
