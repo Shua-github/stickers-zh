@@ -21,7 +21,6 @@ export default function Picker({ setCharacter , characters }) {
 
   const open = Boolean(anchorEl);
   const id = open ? "picker" : undefined;
-  const path = window.location.href;
 
   // 缓存过滤后的图片列表项，避免在每次渲染时重新计算
   const memoizedImageListItems = useMemo(() => {
@@ -35,7 +34,7 @@ export default function Picker({ setCharacter , characters }) {
         // 判断 c.img 是否是完整的 URL
         const imgSrc = c.img.startsWith('http://') || c.img.startsWith('https://')
           ? c.img
-          : `${path}/img/${c.img}`;
+          : `/img/${c.img}`;
 
         return (
           <ImageListItem
@@ -65,7 +64,7 @@ export default function Picker({ setCharacter , characters }) {
       }
       return null;
     });
-  }, [search, setCharacter, path, characters]); // 将 path 添加到依赖数组中
+  }, [search, setCharacter, characters]);
 
   return (
     <div>

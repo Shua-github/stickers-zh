@@ -13,81 +13,53 @@
     <meta property="og:description" content="制作你的表情" />
     <meta property="og:site_name" content="表情制作器" />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="og-image.png" />
     <meta name="propeller" content="fe9c5bcb759709be3fc94085f6e0c75d" />
+
+    <!-- Static Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
 </head>
 <body>
     <div id="root"></div>
     <noscript>需要启用 JavaScript 才能运行此应用。</noscript>
 
+    <!-- Static Manifest -->
     <script>
-        (function () {
-            const baseURL = location.href.endsWith("/") ? location.href : location.href + "/";
+        const baseURL = location.href.endsWith("/") ? location.href : location.href + "/";
 
-            function addDynamicTags() {
-                const links = [
-                    { rel: "apple-touch-icon", sizes: "180x180", href: "apple-touch-icon.png" },
-                    { rel: "icon", type: "image/png", sizes: "32x32", href: "favicon-32x32.png" },
-                    { rel: "icon", type: "image/png", sizes: "16x16", href: "favicon-16x16.png" },
-                    { rel: "manifest", href: "site.webmanifest" },
-                    { rel: "mask-icon", href: "safari-pinned-tab.svg", color: "#5bbad5" }
-                ];
+        // Dynamically create og:url meta tag and append it to head
+        const ogUrlMeta = document.createElement('meta');
+        ogUrlMeta.setAttribute('property', 'og:url');
+        ogUrlMeta.setAttribute('content', baseURL);
+        document.head.appendChild(ogUrlMeta);
 
-                links.forEach(({ rel, sizes, type, href, color }) => {
-                    const link = document.createElement("link");
-                    link.rel = rel;
-                    if (sizes) link.sizes = sizes;
-                    if (type) link.type = type;
-                    link.href = baseURL + href;
-                    if (color) link.color = color;
-                    document.head.appendChild(link);
-                });
+        const manifest = {
+            name: "表情制作器",
+            short_name: "表情制作器",
+            description: "制作你的表情",
+            start_url: baseURL,
+            display: "standalone",
+            background_color: "#eeeeee",
+            theme_color: "#2196f3",
+            icons: [
+                { src: "android-chrome-192x192.png", sizes: "192x192", type: "image/png" },
+                { src: "android-chrome-256x256.png", sizes: "256x256", type: "image/png" },
+                { src: "512.png", sizes: "512x512", type: "image/png" }
+            ],
+            lang: "zh",
+            orientation: "portrait",
+            categories: ["entertainment", "photo", "productivity", "social"],
+            dir: "ltr"
+        };
 
-                const metaTags = [
-                    { property: "og:image", content: baseURL + "og-image.png" },
-                    { property: "og:url", content: baseURL }
-                ];
-
-                metaTags.forEach(({ property, content }) => {
-                    const meta = document.createElement("meta");
-                    meta.setAttribute("property", property);
-                    meta.content = content;
-                    document.head.appendChild(meta);
-                });
-            }
-
-            function createManifest() {
-                const manifest = {
-                    name: "表情制作器",
-                    short_name: "表情制作器",
-                    description: "制作你的表情",
-                    start_url: baseURL,
-                    display: "standalone",
-                    background_color: "#eeeeee",
-                    theme_color: "#2196f3",
-                    icons: [
-                        { src: `${baseURL}android-chrome-192x192.png`, sizes: "192x192", type: "image/png" },
-                        { src: `${baseURL}android-chrome-256x256.png`, sizes: "256x256", type: "image/png" },
-                        { src: `${baseURL}512.png`, sizes: "512x512", type: "image/png" }
-                    ],
-                    lang: "zh",
-                    orientation: "portrait",
-                    categories: ["entertainment", "photo", "productivity", "social"],
-                    dir: "ltr"
-                };
-
-                const blob = new Blob([JSON.stringify(manifest)], { type: "application/json" });
-                const manifestFileUrl = URL.createObjectURL(blob);
-
-                const manifestLink = document.createElement("link");
-                manifestLink.rel = "manifest";
-                manifestLink.href = manifestFileUrl;
-                document.head.appendChild(manifestLink);
-            }
-
-            // Initialize dynamic tags and manifest
-            addDynamicTags();
-            createManifest();
-        })();
+        const manifestBlob = new Blob([JSON.stringify(manifest)], { type: "application/json" });
+        const manifestUrl = URL.createObjectURL(manifestBlob);
+        const link = document.querySelector('link[rel="manifest"]');
+        link.href = manifestUrl;
     </script>
 </body>
 </html>

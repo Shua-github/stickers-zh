@@ -27,10 +27,10 @@ export default function Info({ open, handleClose }) {
               谢谢他们和它们：
             </Typography>
             <List>
-            <ListItem
+              <ListItem
                 button
                 onClick={() =>
-                  (window.location.href = "https://github.com/Shua-github")
+                  window.open("https://github.com/Shua-github", "_blank")
                 }
               >
                 <ListItemAvatar>
@@ -47,8 +47,7 @@ export default function Info({ open, handleClose }) {
               <ListItem
                 button
                 onClick={() =>
-                  (window.location.href = 
-                    "https://github.com/Rosemoe/arcaea-stickers")
+                  window.open("https://github.com/Rosemoe/arcaea-stickers", "_blank")
                 }
               >
                 <ListItemAvatar>
@@ -65,8 +64,7 @@ export default function Info({ open, handleClose }) {
               <ListItem
                 button
                 onClick={() =>
-                  (window.location.href =
-                    "https://github.com/TheOriginalAyaka/sekai-stickers")
+                  window.open("https://github.com/TheOriginalAyaka/sekai-stickers", "_blank")
                 }
               >
                 <ListItemAvatar>
@@ -88,8 +86,7 @@ export default function Info({ open, handleClose }) {
               <ListItem
                 button
                 onClick={() =>
-                  (window.location.href =
-                    "https://github.com/Shua-github/stickers-zh")
+                  window.open("https://github.com/Shua-github/stickers-zh", "_blank")
                 }
               >
                 <ListItemAvatar>
