@@ -34,7 +34,7 @@ export default function Picker({ setCharacter , characters }) {
         // 判断 c.img 是否是完整的 URL
         const imgSrc = c.img.startsWith('http://') || c.img.startsWith('https://')
           ? c.img
-          : `/img/${c.img}`;
+          : `./img/${c.img}`;
 
         return (
           <ImageListItem

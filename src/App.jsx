@@ -79,7 +79,7 @@ function App() {
   if (imgPath.startsWith('http://') || imgPath.startsWith('https://')) {
     img.src = imgPath; // 直接使用绝对路径
   } else {
-    img.src = `/img/` + imgPath; // 拼接相对路径
+    img.src = `./img/${imgPath}`; // 拼接相对路径
   }
   img.onload = () => {
     setLoaded(true);
