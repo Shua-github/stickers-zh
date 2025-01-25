@@ -244,7 +244,7 @@ function App() {
                     const data = loadMemeJson(temp)
                     console.log(data);
                     setmemecharacterList(data)
-                    return data; // 返回 meme 和对应的 info
+                    return memecharacterList; // 返回 meme 和对应的 info
                 } catch (error) {
                     console.error(`获取 ${meme} 的 info 失败:`, error);
                     setErrorMsg(true);
@@ -318,7 +318,7 @@ function App() {
           <div className="settings">
             <div>
               <label>
-                <nobr>meme表情制作: </nobr>
+                <nobr>meme表情制作(开发中): </nobr>
               </label>
               <Switch
                 checked={memesSwich}
