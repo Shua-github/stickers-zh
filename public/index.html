@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html lang="zh">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- 动态插入的标签会替换以下内容 -->
     <meta name="msapplication-TileColor" content="#2196f3" />
     <meta name="theme-color" content="#2196f3" />
     <meta name="description" content="表情制作器" />
     <title>表情制作器</title>
-
     <meta property="og:title" content="表情制作器" />
     <meta property="og:description" content="制作你的表情" />
     <meta property="og:site_name" content="表情制作器" />
     <meta property="og:type" content="website" />
     <meta name="propeller" content="fe9c5bcb759709be3fc94085f6e0c75d" />
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+</head>
+<body>
     <div id="root"></div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
 
     <script>
-      // 动态插入标签
-      const basePath = location.pathname; 
-      if (!basePath.endsWith("/")) {
-        basePath = basePath + "/";
-      }
-
-      function addDynamicTags() {
+        // 动态生成 manifest 文件
+        const baseURL = location.pathname.endsWith("/") ? location.href : location.pathname + "/";
+        const basePath = location.pathname.endsWith("/") ? location.pathname : location.pathname + "/";
+        function addDynamicTags() {
 
         // 创建并插入 <link> 标签
         const links = [
@@ -56,53 +51,51 @@
         // 插入 og:url 标签
         const ogUrl = document.createElement("meta");
         ogUrl.setAttribute("property", "og:url");
-        ogUrl.content = window.location.href; // 使用当前页面的完整URL
-        document.head.appendChild(ogUrl);
+        ogUrl.content = baseURL; // 使用当前页面的完整URL
+        document.head.appendChild(ogUrl);}
 
-        // 动态生成 site.webmanifest
         const manifest = {
-          name: "表情制作器",
-          short_name: "表情制作器",
-          icons: [
+        "name": "表情制作器",
+        "short_name": "表情制作器",
+        "description": "制作你的表情",
+        "start_url": baseURL, 
+        "display": "standalone",
+        "background_color": "#eeeeee",
+        "theme_color": "#2196f3",
+        "icons": [
             {
-              src: `${basePath}android-chrome-192x192.png`,
-              sizes: "192x192",
-              type: "image/png",
+                "src": `${baseURL}android-chrome-192x192.png`,
+                "sizes": "192x192",
+                "type": "image/png"
             },
             {
-              src: `${basePath}android-chrome-256x256.png`,
-              sizes: "256x256",
-              type: "image/png",
+                "src": `${baseURL}android-chrome-256x256.png`,
+                "sizes": "256x256",
+                "type": "image/png"
             },
             {
-              src: `${basePath}512.png`,
-              sizes: "512x512",
-              type: "image/png",
-            },
-          ],
-          theme_color: "#2196f3",
-          background_color: "#eeeeee",
-          display: "standalone",
-          description: "制作你的表情!",
-          start_url: `${window.location.href}`,
-          dir: "ltr",
-          lang: "zh",
-          orientation: "portrait",
-          categories: ["entertainment", "photo", "productivity", "social"],
-        };
+                "src": `${baseURL}512.png`,
+                "sizes": "512x512",
+                "type": "image/png"
+            }
+        ],
+        "lang": "zh",
+        "orientation": "portrait",
+        "categories": ["entertainment", "photo", "productivity", "social"],
+        "dir": "ltr"
+    };
 
-        // 创建并插入 manifest 文件
+        // 创建 Blob 并生成 URL
         const blob = new Blob([JSON.stringify(manifest)], { type: "application/json" });
         const manifestFileUrl = URL.createObjectURL(blob);
 
+        // 创建 <link> 标签并插入到 <head> 中
         const manifestLink = document.createElement("link");
         manifestLink.rel = "manifest";
         manifestLink.href = manifestFileUrl;
         document.head.appendChild(manifestLink);
-      }
 
-      // 调用函数
-      addDynamicTags();
+        addDynamicTags();
     </script>
-  </body>
+</body>
 </html>
