@@ -24,7 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "s": "react-scripts start"
+    "s": "react-scripts start",
+    "b": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [

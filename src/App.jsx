@@ -195,7 +195,7 @@ function App() {
   };
 
   const b64toBlob = (b64Data, contentType = "image/png") => {
-    const byteCharacters = Buffer.from(b64Data,'base64');
+    const byteCharacters = atob(b64Data);
     const byteArrays = new Uint8Array(byteCharacters.length);
     for (let i = 0; i < byteCharacters.length; i++) {
       byteArrays[i] = byteCharacters.charCodeAt(i);
