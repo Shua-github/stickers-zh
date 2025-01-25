@@ -25,6 +25,7 @@ export default function Picker({ setCharacter , characters }) {
   // 缓存过滤后的图片列表项，避免在每次渲染时重新计算
   const memoizedImageListItems = useMemo(() => {
     const s = search.toLowerCase();
+    const baseURL = window.location.href;
     return characters.map((c, index) => {
       if (
         s === c.id ||
@@ -34,7 +35,7 @@ export default function Picker({ setCharacter , characters }) {
         // 判断 c.img 是否是完整的 URL
         const imgSrc = c.img.startsWith('http://') || c.img.startsWith('https://')
           ? c.img
-          : `./img/${c.img}`;
+          : `${baseURL}/img/${c.img}`;
 
         return (
           <ImageListItem

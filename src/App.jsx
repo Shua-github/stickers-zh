@@ -75,11 +75,11 @@ function App() {
   }, [character]);
 
   const imgPath = characters[character].img;
-  
+  const baseURL = window.location.href;
   if (imgPath.startsWith('http://') || imgPath.startsWith('https://')) {
     img.src = imgPath; // 直接使用绝对路径
   } else {
-    img.src = `./img/${imgPath}`; // 拼接相对路径
+    img.src = `${baseURL}/img/${imgPath}`; // 拼接路径
   }
   img.onload = () => {
     setLoaded(true);
