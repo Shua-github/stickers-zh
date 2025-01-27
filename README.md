@@ -9,7 +9,8 @@
 ## 网站
 1. [Github Pages](https://shua-github.github.io/stickers-zh/)
 2. [Netlify](https://stickers-zh.netlify.app/)
-3. [CloudFlare Pages](https://stickers-zh.pages.dev/)
+3. [Cloudflare Pages](https://stickers-zh.pages.dev/)
+
 ## 谢谢他们和它们
 - [Arcaea Stickers](https://github.com/Rosemoe/arcaea-stickers)
 - [Project Sekai Stickers](https://github.com/TheOriginalAyaka/sekai-stickers)
