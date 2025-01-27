@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main  # 监听 main 分支的推送事件
+    paths-ignore:  # 忽略这些文件的改动
+      - README.md
+      - .gitignore
+      - LICENSE
 
 jobs:
   deploy:
